@@ -3,12 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Bière Funky</title>
-    <link rel="stylesheet" href="b.css">
+    <link rel="stylesheet" href="public/css/b.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
 
 </head>
+<style>
+    header{
+  background-image: url("public/images/page_biere_seule/vagueM.png");
+  background-repeat: no-repeat;
+  background-position: 80%;
+}
+body{
+  background-color: #ff398a; 
+    background-image: url("public/images/page_biere_seule/partD.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+.AjPanier{
+    background-color: #ff398a;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 56px 56px 0px;
+    padding:1%;
+    font-size: 25px;
+    text-align: center;
+    color: #232323;
+  }
+    </style>
 
 <body>
     <header>
@@ -17,8 +42,8 @@
     <!-- <img  src="./images/vagueM.png" class="Millieu"> -->
 
     <div class="BiereMockup">
-        <img src="./images/effect.png"alt="effet">
-        <img class="effet" src="./images/Funky_Mockup.png" alt="biere">
+        <img src="public/images/page_biere_seule/effect.png"alt="effet">
+        <img class="effet" src="public/images/page_biere_seule/Funky_Mockup.png" alt="biere">
     </div>
     
         <p class="prix">
@@ -31,7 +56,7 @@
              
             
         </p>
-        <img src="./images/Funky.png" class="Funky">
+        <img src="public/images/page_biere_seule/Funky.png" class="Funky">
    
     <div class="FBiere">
         <p class="cl">Format</p>
