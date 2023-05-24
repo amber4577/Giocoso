@@ -41,31 +41,22 @@
     <?php
 session_start();
 
-// Check if the counter is set in session
 if (!isset($_SESSION['counter'])) {
-    $_SESSION['counter'] = 0; // Initialize counter if it doesn't exist
+    $_SESSION['counter'] = 0; 
 }
 
-// Check if the increment button is clicked
+
 if (isset($_POST['increment'])) {
-    // Increment the counter by one
+    
     $_SESSION['counter']++;
 }
 
-// Check if the decrement button is clicked
+
 if (isset($_POST['decrement'])) {
-    // Decrement the counter by one, but ensure it doesn't go below 0
+    
     if ($_SESSION['counter'] > 0) {
         $_SESSION['counter']--;
     }
-}
-
-// Reset the counter when the page is refreshed
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $_SESSION['counter'] = 0;
-    // Redirect to the same page to avoid resubmitting form data
-    header("Location: " . $_SERVER['PHP_SELF']);
-    exit();
 }
 ?>
 
