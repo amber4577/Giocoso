@@ -2,48 +2,15 @@
 <html>
 <head>
     <title>Le Footer</title>
-    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="public/css/Footer.css">
     <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 </head>
-<body><style>
-    p,ul{
-    font-family: fredoka one;
-    font-size: 2em;
-    list-style-type: none;  
-}
-
-body{
-    background-image: url("public/images/Footer/FIN2.png");
-    background-repeat: no-repeat    
-}
-
-.Horaires{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    float: left;
-    margin-left: 3%;
-
-}
-
-.RS{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content:start;
-    margin-right: 3%;
-}
-
-.alcool{
-margin-top: 10%;
-text-align: center;
-
-}
-
-footer{
-    margin-top: 22%;
-}
-</style>
+<body>
+    <style>
+        body{
+        background-image: url("public/images/logo_rs/FIN2.png");
+    }
+        </style>
     <footer>
         <ul class="Horaires">
             <li>
@@ -83,15 +50,15 @@ footer{
 
         <div class="RS">
             <a href="url">          
-                <img src="public/images/Footer/facebook.png" alt=Facebook>
+                <img src="public/images/logo_rs/facebook.png" alt=Facebook>
             </a>
 
             <a href="url">
-                <img src="public/images/Footer/twitter.png" alt="twitter">
+                <img src="public/images/logo_rs/twitter.png" alt="twitter">
             </a>
             
             <a href="url">
-                <img src="public/images/Footer/instagram.png" alt="instagram">
+                <img src="public/images/logo_rs/instagram.png" alt="instagram">
             </a>
         </div>
 

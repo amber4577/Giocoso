@@ -1,14 +1,14 @@
+
 p,ul{
-    font-family: fredoka one;
+    font-family: 'fredoka one';
     font-size: 2em;
     list-style-type: none;  
 }
 
 body{
-    background-color: #232323;
-    background-image: url(./image/FIN2.png);
-    background-repeat: no-repeat
-    
+    background-image: url("public/images/logo_rs/FIN2.png");
+    background-repeat: no-repeat;
+    margin-top: 25%;   
 }
 
 .Horaires{
