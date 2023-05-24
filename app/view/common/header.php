@@ -6,7 +6,7 @@
 </head>
 <header>
     <section class="logo">
-        <img src="logo_giocoso.png"/>
+        <img src="./images/imgheader/logo_giocoso.png"/>
     </section>
     <nav class="menu">
         <ul>
