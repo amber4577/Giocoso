@@ -1,0 +1,96 @@
+body{
+    background-color: #232323;
+    
+}
+
+
+button a{
+    text-decoration: none;
+    color: #232323;
+    font-family: 'Fredoka', sans-serif;
+    border: none;
+    font-size: 2rem;
+}
+
+
+p{
+    font-family: gilroy light;
+    color: #ffffff; 
+    font-size: 20px;
+}
+
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: .2rem;
+    color: #ffffff;
+}
+
+
+
+.Presentation{
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    border-radius: 56px;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.texte{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 60%;
+
+}
+
+.gamme {
+    clear: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    align-items: center;
+    justify-content: start;
+    align-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+  
+
+
+.FUNKY{
+
+background-color:  #FF398A;
+border-radius: 56px;
+
+}
+
+.ELECTRO{
+background-color: #D11FE3;
+border-radius: 56px;
+
+}
+
+.JAZZ{
+background-color: #fcff6e;
+border-radius: 56px;
+
+}
+
+.ROCK{
+background-color:#A81A16 ;
+border-radius: 56px;
+
+}
+
+.TANGO{
+background-color:#EA3434;
+border-radius: 56px;
+
+}
