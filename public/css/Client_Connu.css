@@ -44,3 +44,16 @@ input{
     text-align: center;
     text-decoration: none;
 }
+
+.police {
+text-decoration-color: white ; 
+text-decoration: none;     
+ color: white; 
+ text-decoration: underline;
+}
+
+.num {
+    text-decoration-color: white ; 
+    text-decoration: none;       
+    color: #232323;
+}
