@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8"/>
-    <title>header</title>
+    <title>navigation</title>
     <link rel="stylesheet" href="stylegiocoso.css">
 </head>
-<header>
-    <section class="logo">
-        <img src="logo_giocoso.png"/>
-    </section>
-    <nav class="menu">
+<nav class="menu">
         <ul>
             <li><a href="brasserie.html"#brasserie>LA BRASSERIE</a></li>
             <li><a href="catalogue.html"#catalogue>BIERES</a></li>
@@ -18,7 +14,3 @@
             <li><a href="panier.html"#connexion><img src="iconepanier.png"/></a></li>
         </ul>
     </nav>
-</header>
-<body>
-
-</body>
