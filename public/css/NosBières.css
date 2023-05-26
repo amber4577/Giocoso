@@ -51,17 +51,17 @@ h1{
 
 }
 
-.gamme {
-    clear: left;
+.container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px 2em;
-    align-items: center;
-    justify-content: start;
-    align-content: space-between;
-    padding-top: 50px;
-    margin-bottom: 10px;
-    height: 50px;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr 2fr;
+    gap : 56px;
+    /*// 
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   */
   }
   
 
