@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <title>Le Footer</title>
-    <link  rel="stylesheet" href="Footer.css"
-    href='https://fonts.googleapis.com/css?family=Fredoka One'>
-</head>
-    <body>
+
         <footer>
 
         <ul class="Horaires">
@@ -62,3 +56,4 @@
         </p>
     </footer>
     </body>
+    </html>
