@@ -23,13 +23,13 @@
     
     <section class="brasserie">
         <h2>LA BRASSERIE</h2>
-        <p style="font-size : 14px;"> Giocoso c'est la brasserie où vous rendre pour passer un moment festif </br>
+        <p style="font-size : 20px;"> Giocoso c'est la brasserie où vous rendre pour passer un moment festif </br>
             tout en profitant de la musique et de nos boissons.</br></p>
-        <p style="font-size : 14px;">
+        <p style="font-size : 20px;">
             Vous passerez un moment inoubliable en compagnie de plein d'autres personnes</br>
             partageant notre passion commune pour la musique, la fête et la bière ! </br></p>
         
-        <p style="font-size : 14px;">
+        <p style="font-size : 20px;">
             Venez boire un coup chez-nous, vous ne le regretterez pas ! </br>
             Giocoso, Inspire by beat ! </br>
         </p>
