@@ -9,7 +9,7 @@
         <img src="logo_giocoso.png"/>
         <img src="public/images/imgheader/logo_giocoso.png"/>
     </section>
-    <?php include 'app/view/common/navigation.php' ?>     
+    <?php include 'app/view/common/nav.php'; ?>     
 </header>
 <body>
 
