@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>navigation</title>
-    <link rel="stylesheet" href="public/css/stylegiocoso.css">
+    <link rel="stylesheet" href="public/css/header.css">
 </head>
 <nav class="menu">
         <ul>
