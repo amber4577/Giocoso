@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="public/css/stylegiocoso.css">
 </head>
 <header>
-    <?php include 'app/view/common/header.php';?>     
+    <?php include 'app/view/common/nav.php';?>     
 </header>
 <body>
 
@@ -38,5 +38,3 @@
         <a href="discovermore.html"><button class="validation">En savoir plus</button></a>
     </section>
 </body>
-
-<?php include 'app/view/common/footer.php';?>
