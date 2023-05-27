@@ -10,7 +10,7 @@
             <li><a href="catalogue.html"#catalogue>BIERES</a></li>
             <li><a href="entreprise.html"#entreprise>NOUS</a></li>
             <li><a href="contact.html"#contact>CONTACT</a></li>
-            <li><a href="connexion.html"#connexion><img src="iconeprofil.png"/></a></li>
-            <li><a href="panier.html"#connexion><img src="iconepanier.png"/></a></li>
+            <li><a href="connexion.html"#connexion><img src="public/images/imgheader/iconeprofil.png"/></a></li>
+            <li><a href="panier.html"#connexion><img src="public/images/imgheader/iconepanier.png"/></a></li>
         </ul>
     </nav>
