@@ -52,7 +52,7 @@ body{
         <p class="Description">
             Vibrez au rythme du son tout en buvant notre bière, savourer les douces mélodies que provoque
              cette boisson au goût cerise,
-             framboise. Cette boisson musicalement envoûtante vous fera danser jusqu'à la fin de la.
+             framboise. Cette boisson musicalement envoûtante vous fera danser jusqu'à la fin de la soirée.
              
             
         </p>
