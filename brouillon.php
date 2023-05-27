@@ -20,3 +20,41 @@
                         </button>       
         </div>
 </body>
+
+
+
+p,ul{
+    font-family: 'fredoka one';
+    list-style-type: none;
+    font-size: 2em;  
+}
+
+body{
+    background-repeat: no-repeat;
+    margin-top: 25%;   
+}
+
+.Horaires{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    float: left;
+    margin-left: 3%;
+}
+
+.RS{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content:start;
+    margin-right: 3%;
+}
+
+.alcool{
+    margin-top: 10%;
+    text-align: center;
+}
+
+footer{
+    margin-top: 22%;
+}
