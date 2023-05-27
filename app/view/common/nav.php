@@ -4,10 +4,6 @@
     <title>navigation</title>
     <link rel="stylesheet" href="public/css/header.css">
 </head>
-<section class="logo">
-    <a href="accueil.php">
-        <img src="public/images/imgheader/logo_giocoso.png"/>
-    </section>
 <nav class="menu">
         <ul>
             <li><a href="brasserie.html"#brasserie>LA BRASSERIE</a></li>
