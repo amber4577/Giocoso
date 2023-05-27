@@ -8,9 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
 
 </head>
-<header>
-    <?php include 'app/view/common/header.php';?>     
-</header>  
 <body>
     
 
