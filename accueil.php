@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8"/>
     <title>header</title>
-    <link rel="stylesheet" href="stylegiocoso.css">
+    <link rel="stylesheet" href="public/css/stylegiocoso.css">
 </head>
 <header>
-    <?php include 'app/view/common/header.php'?>     
+    <?php include 'app/view/common/header.php';?>     
 </header>
 <body>
 
