@@ -38,4 +38,8 @@
             <a href="discovermore.html"><button class="validation">En savoir plus</button></a>
         </section>
     </div>
+
+    <footer>
+        <?php include 'app/view/common/footer.php';?>     
+    </footer>
 </body>
