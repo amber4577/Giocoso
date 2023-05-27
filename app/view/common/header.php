@@ -1,15 +1,12 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>header</title>
-    <link rel="stylesheet" href="stylegiocoso.css">
+    <title>Le Footer</title>
+    <link rel="stylesheet" href="public/css/header.css">
 </head>
 <header>
     <section class="logo">
-        <img src="logo_giocoso.png"/>
-        <img src="./images/imgheader/logo_giocoso.png"/>
+        <img src="public/images/imgheader/logo_giocoso.png"/>
     </section>
-</header>
-<body>
-
-</body>
+    <?php include 'app/view/common/nav.php'; ?>
+</header>     
