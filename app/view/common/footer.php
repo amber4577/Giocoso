@@ -7,7 +7,7 @@
 </head>
 <body>
         
-    <footer style="background-image: url(public/images/logo_rs/FIN2.png);">
+    <footer>
         <ul class="Horaires">
             <li>
                 HORAIRES
