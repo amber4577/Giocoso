@@ -39,3 +39,4 @@
     </section>
 </body>
 
+<?php include 'app/view/common/footer.php';?>

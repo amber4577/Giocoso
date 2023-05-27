@@ -1,7 +1,6 @@
 
 p,ul{
     font-family: 'fredoka one';
-    font-size: 2em;
     list-style-type: none;  
 }
 
@@ -27,9 +26,8 @@ body{
 }
 
 .alcool{
-margin-top: 10%;
-text-align: center;
-
+    margin-top: 10%;
+    text-align: center;
 }
 
 footer{
