@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="public/css/stylegiocoso.css">
 </head>
 <header>
-    <?php include 'app/view/common/nav.php';?>     
+    <?php include 'app/view/common/header.php';?>     
 </header>
 <body>
     <div class="contenu">
