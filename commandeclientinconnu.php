@@ -18,7 +18,7 @@
             </div>
 
             <div id="boutton">
-                <button class="validation">CREER MON NUMERO</button></a>
+                <button class="validation" style="background-color: #70F8BA;">CREER MON NUMERO</button></a>
             </div>
     </section>
 </body>
