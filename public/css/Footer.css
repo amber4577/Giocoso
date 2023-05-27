@@ -34,7 +34,7 @@ footer {
  
 .contenu{
     height: 100%; /*Le contenu prend 100% de la page */
-    margin-bottom: -50px; /*L'opposé de la taille du footer */
+    margin-bottom: -100px; /*L'opposé de la taille du footer */
 }
  
  
