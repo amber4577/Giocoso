@@ -6,12 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 </head>
 <body>
-        <style>
-        body{
-        background-image: url("public/images/logo_rs/FIN2.png");
-            }
-        </style>
-    <footer>
+        
+    <footer style="background-image: url(public/images/logo_rs/FIN2.png);">
         <ul class="Horaires">
             <li>
                 HORAIRES
