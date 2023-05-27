@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8"/>
-    <title>header</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="public/css/stylegiocoso.css">
 </head>
 <header>
