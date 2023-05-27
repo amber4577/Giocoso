@@ -1,12 +1,8 @@
 
 p,ul{
     font-family: 'fredoka one';
-    list-style-type: none;  
-}
-
-body{
-    background-repeat: no-repeat;
-    margin-top: 25%;   
+    list-style-type: none;
+    font-size: 2em;  
 }
 
 .Horaires{
@@ -30,6 +26,21 @@ body{
     text-align: center;
 }
 
-footer{
-    margin-top: 22%;
+footer {
+    height:50px;  /*La taille de ton footer */
+    background-image: url(public/images/logo_rs/FIN2.png);
+ 
 }
+ 
+.contenu{
+    height: 100%; /*Le contenu prend 100% de la page */
+    margin-bottom: -100px; /*L'opposé de la taille du footer */
+}
+ 
+ 
+body{
+    height: 100%;
+    margin: 0; /* pas de marge */
+    padding: 0; /*ni de padding */
+}
+
