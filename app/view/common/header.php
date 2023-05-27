@@ -7,8 +7,9 @@
 <header>
     <section class="logo">
         <img src="logo_giocoso.png"/>
-        <img src="./images/imgheader/logo_giocoso.png"/>
+        <img src="public/images/imgheader/logo_giocoso.png"/>
     </section>
+    <?php include 'app/view/common/navigation.php' ?>     
 </header>
 <body>
 
