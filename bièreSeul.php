@@ -65,34 +65,31 @@ body{
     </div>
     <?php
 session_start();
-
+//Set counter to 0 
 if (!isset($_SESSION['counter'])) {
     $_SESSION['counter'] = 0; 
 }
 
-
+//+1
 if (isset($_POST['increment'])) {
-    
     $_SESSION['counter']++;
 }
 
 
 if (isset($_POST['decrement'])) {
-    
+    //-1
     if ($_SESSION['counter'] > 0) {
         $_SESSION['counter']--;
     }
 }
-?>
-
-    
+?>    
             <div class="Ajout">
                 <div class="Boutons">
                     <p class="QTE"> <?php echo $_SESSION['counter']; ?></h1>
                 
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                        <button class="PLUS" type="submit" name="increment">+</button>
-                        <button class="SOUS" type="submit" name="decrement">-  </button>
+                        <button class="PLUS" type="submit" name="Ajoute 1">+</button>
+                        <button class="SOUS" type="submit" name="Enleve 1">-  </button>
                     </form>
             </div>
 
