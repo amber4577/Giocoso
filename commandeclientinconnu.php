@@ -18,7 +18,7 @@
             </div>
 
             <div id="boutton">
-                <button class="validation" onclick="href='compteclientform.php';" style="background-color: #70F8BA;">CREER MON NUMERO</button></a>
+                <button onclick="href='compteclientform.php';" style="background-color: #70F8BA;">CREER MON NUMERO</button>
             </div>
     </section>
 
