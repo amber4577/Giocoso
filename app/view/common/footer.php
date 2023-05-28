@@ -11,7 +11,7 @@
         background-image: url("public/images/logo_rs/FIN2.png") ;
         background-repeat: no-repeat;
         position : relative;
-        bottom : 800px;
+        bottom : 1600px;
     }
         </style>
     <footer>
