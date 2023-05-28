@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS `bière` (
   `nom` varchar(50) NOT NULL,
   `prix` float NOT NULL,
   `gout` text NOT NULL,
+  `description` text NOT NULL,
   PRIMARY KEY (`reference`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -40,12 +41,18 @@ CREATE TABLE IF NOT EXISTS `bière` (
 -- Déchargement des données de la table `bière`
 --
 
-INSERT INTO `bière` (`reference`, `nom`, `prix`, `gout`) VALUES
-(1, 'Funky', 4.2, 'Cerise et Framboise'),
-(2, 'Jazz', 4.2, 'Mangue et Passion'),
-(3, 'Electro', 4.2, 'Cerise et Pitaya'),
-(4, 'Tango', 4.2, 'Coquelicot et Fruits rouges'),
-(5, 'Rock', 4.2, 'Poivre, Cerise, Citron Gingembre');
+INSERT INTO `bière` (`reference`, `nom`, `prix`, `gout`,`description`) VALUES
+(1, 'Funky', 4.2, 'Cerise et Framboise','descrFunky'),
+(2, 'Jazz', 4.2, 'Mangue et Passion','descrJazz'),
+(3, 'Electro', 4.2, 'Cerise et Pitaya','descrElectro'),
+(4, 'Tango', 4.2, 'Coquelicot et Fruits rouges','descrTango'),
+(5, 'Rock', 4.2, 'Poivre, Cerise, Citron Gingembre','descrRock'),
+
+(6, 'Funky', 3.6, 'Cerise et Framboise','descrFunky'),
+(7, 'Jazz', 3.6, 'Mangue et Passion','descrJazz'),
+(8, 'Electro', 3.6, 'Cerise et Pitaya','descrElectro'),
+(9, 'Tango', 3.6, 'Coquelicot et Fruits rouges','descrTango'),
+(10, 'Rock', 3.6, 'Poivre, Cerise, Citron Gingembre','descrRock');
 
 -- --------------------------------------------------------
 
@@ -108,3 +115,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
