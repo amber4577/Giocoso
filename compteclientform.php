@@ -131,4 +131,8 @@
         
       </main>
       
+        <footer>
+            <?php include 'app/view/common/footer.php';?>     
+        </footer>
+      
     </body>
