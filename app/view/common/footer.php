@@ -2,11 +2,15 @@
 <html>
 <head>
     <title>Le Footer</title>
-    <link rel="stylesheet" href="public/css/Footer.css">
+    <link rel="stylesheet" href="public/css/footer.css">
     <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 </head>
 <body>
-        
+    <style>
+        body{
+        background-image: url("public/images/logo_rs/FIN2.png") ;
+    }
+        </style>
     <footer>
         <ul class="Horaires">
             <li>
