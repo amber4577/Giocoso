@@ -23,7 +23,7 @@
         </section>
 
         <section class="gamme">
-            <?php include 'app/view/common/header.php';?> 
+            <?php include 'presentationgamme.php';?> 
         </section>
     
         <section class="brasserie">
