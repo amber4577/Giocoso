@@ -121,12 +121,14 @@
                 />
             </div>
 
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904;">
+                Je m'inscris
+                </button>
+            </div>
+
         </form>
-        <div class="form-group">
-            <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904;">
-              Je m'inscris
-            </button>
-          </div>
+        
       </main>
       
     </body>
