@@ -30,11 +30,11 @@
     <div class="container">
  
     <li>
-        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 25%; background-color:  #FF398A;
+        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 25%; background-color: #D11FE3;
         border-radius: 56px;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 25%; background-color: #D11FE3;
+        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 25%; background-color: #FF398A;
         border-radius: 56px;">
     </li>
     <li>
