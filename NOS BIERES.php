@@ -55,3 +55,9 @@
         <p>TANGO         4,20 €</p>
     </li>
 </div>
+
+
+<footer>
+        <?php include 'app/view/common/footer.php';?>     
+    </footer>
+</body>
