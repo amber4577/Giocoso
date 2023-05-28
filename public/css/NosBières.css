@@ -57,3 +57,8 @@ h1{
     grid-template-rows: 1fr 1fr;
     gap : 56px;
   }
+
+
+.container li {
+    list-style-type: none;
+}
