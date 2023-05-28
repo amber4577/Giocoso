@@ -24,5 +24,9 @@
                 <button class="validation" style="background-color: #FFB904;">RECUPERER MES INFORMATIONS</button>
             </div>
     </section>
+
+    <footer>
+        <?php include 'app/view/common/footer.php';?>     
+    </footer>
 </body>
 
