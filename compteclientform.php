@@ -8,7 +8,7 @@
         <?php include 'app/view/common/header.php';?>  
     </header>
     <body>
-         <main class="container">
+         <main class="container2">
 
 
 
