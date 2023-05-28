@@ -53,8 +53,8 @@ h1{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
     gap : 56px;
     /*// 
    flex-direction: row;
