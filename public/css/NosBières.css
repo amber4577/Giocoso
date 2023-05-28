@@ -15,7 +15,7 @@ button a{
 
 
 p{
-    font-family:"Gilroy ExtraBold";
+    font-family:"Gilroy light";
     color: #ffffff; 
     font-size: 30px;
 }
@@ -62,4 +62,10 @@ h1{
 
 .container li {
     list-style-type: none;
+}
+
+.container li p {
+    font-family:"Gilroy ExtraBold";
+    text-align: center;
+    font-size: 30px;
 }
