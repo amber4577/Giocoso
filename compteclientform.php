@@ -16,7 +16,7 @@
        
         
             <div class="form-group">
-                <label id="name-label" for="nom">Nom</label>
+                <label id="name-label" for="nom"></label>
                 <input
                 type="text"
                 name="nom"
@@ -122,7 +122,7 @@
             </div>
 
           <div class="form-group">
-            <button type="submit" id="submit" class="submit-button">
+            <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904;">
               Je m'inscris
             </button>
           </div>
