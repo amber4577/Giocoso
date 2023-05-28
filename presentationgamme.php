@@ -12,7 +12,7 @@
 <body>
     
     <div class="Presentation">
-        <img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;">
+        <a href="NOS BIERES.php"><img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;"></a>
         
             
         <h1>HARMONIE</h1>
@@ -22,5 +22,5 @@
             Funky, Jazz, Rock et bien d'autres sauront vous emporter dans un accords exquis. 
         </p>
     </div>
-    
+
 </body>
