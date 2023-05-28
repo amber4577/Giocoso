@@ -99,7 +99,7 @@
                 ><span class="clue"></span></label
                 >
                 <input
-                type="number"
+                type="text"
                 name="cp"
                 id="codep"
                 minlenght="5"
