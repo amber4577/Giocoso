@@ -121,8 +121,8 @@
                 />
             </div>
 
-            <div class="buttonval">
-                <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904;">
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904; position: relative; right:100px;">
                 Je m'inscris
                 </button>
             </div>
