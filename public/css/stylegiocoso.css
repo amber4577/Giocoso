@@ -178,6 +178,7 @@ form {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
     display: block;
+    text-align: center;
   }
   
 .form-control {
