@@ -12,7 +12,7 @@
 <body>
     
     <div class="Presentation">
-        <a href="NOS BIERES.php"><img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;"></a>
+        <img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;">
         
             
         <h1>HARMONIE</h1>
