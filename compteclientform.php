@@ -57,7 +57,7 @@
                 ><span class="clue"></span></label
                 >
                 <input
-                type="number"
+                type="tel"
                 name="numtel"
                 id="number"
                 minlenght="10"
