@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Nos bières</title>
-    <link rel="stylesheet" href="public/css/NosBières.css">
+    <link rel="stylesheet" href=".app/public/css/NosBières.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
@@ -32,10 +32,20 @@
     <li>
         <img src = "./public/images/bieres/biere_electro.png" alt = "biére elecrto" style=" width: 85%;">
     </li>
+    
     <li>
         <img src = "./public/images/bieres/biere_funky.png" alt = "biére elecrto" style=" width: 85%;">
     </li>
+    
     <li>
         <img src = "./public/images/bieres/biere_jazz.png" alt = "biére elecrto" style=" width: 85%;">
     </li>
+    
+    <li>
+    <img src = "./public/images/bieres/biere_rock.png" alt = "biére elecrto" style=" width: 85%;">
+    </li>
+    
+    <li>
+    <img src = "./public/images/bieres/biere_tango.png" alt = "biére elecrto" style=" width: 85%;">
+   </li>
 </div>
