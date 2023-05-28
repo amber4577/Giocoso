@@ -161,9 +161,10 @@ h3 {
 
 
 .container {
-    width: 75%;
+    width: 100%;
     margin: 3.125rem auto 0 auto;
     background-color: #FF398A;
+    border-radius: 2em;
   }
 
 
