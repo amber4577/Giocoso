@@ -21,7 +21,7 @@
             
         <h1>HARMONIE</h1>
         <p>
-            Laissez vous conquérir par la gamme Harmonie. Les goûts s’accordent à la perfection pour un mélange harmonieux. 
+            Laissez vous conquérir par la gamme Harmonie. Les goûts s’accordent à la perfection pour un mélange harmonieux.</br> 
 
             Funky, Jazz, Rock et bien d'autres sauront vous emporter dans un accords exquis. 
         </p>
