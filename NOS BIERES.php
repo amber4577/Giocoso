@@ -30,18 +30,23 @@
     <div class="container">
  
     <li>
-        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 85%; background-color:  #FF398A;
+        border-radius: 56px;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 85%; background-color: #D11FE3;
+        border-radius: 56px;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 85%; background-color: #ffcb3d;
+        border-radius: 56px;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_rock.png" alt = "bière rock" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_rock.png" alt = "bière rock" style=" width: 85%; background-color:#A81A16 ;
+        border-radius: 56px;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_tango.png" alt = "bière tango" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_tango.png" alt = "bière tango" style=" width: 85%; background-color:#EA3434;
+        border-radius: 56px;">
     </li>
 </div>
