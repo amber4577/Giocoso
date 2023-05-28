@@ -34,8 +34,8 @@
                 Giocoso, Inspire by beat ! </br>
             </p>
 
-            <a href="events.html"><button class="validation">Nos évènements</button></a>
-            <a href="discovermore.html"><button class="validation">En savoir plus</button></a>
+            <a href="events.html"><button class="validation" style="background-color: #70F8BA;">Nos évènements</button></a>
+            <a href="discovermore.html"><button class="validation" style="background-color: #70F8BA;">En savoir plus</button></a>
         </section>
     </div>
 
