@@ -22,36 +22,39 @@
                 name="nom"
                 id="nom"
                 class="form-control"
+                placeholder="Nom"
                 required
                 />
             </div>
 
             <div class="form-group">
-                <label id="firstname-label" for="firstname">Prénom</label>
+                <label id="firstname-label" for="firstname"></label>
                 <input
                 type="text"
                 name="prenom"
                 id="prenom"
                 class="form-control"
+                placeholder="Prénom"
                 required
                 />
             </div>
         
          
             <div class="form-group">
-                <label id="email-label" for="email">Adresse mail</label>
+                <label id="email-label" for="email"></label>
                 <input
                 type="email"
                 name="email"
                 id="email"
                 class="form-control"
+                placeholder="Adresse email"
                 required
                 />
             </div>
 
             <div class="form-group">
                 <label id="number-label" for="number"
-                >Numéro de Téléphone<span class="clue"></span></label
+                ><span class="clue"></span></label
                 >
                 <input
                 type="number"
@@ -60,23 +63,25 @@
                 minlenght="10"
                 maxlength="10"
                 class="form-control"
+                placeholder="Numéro de Téléphone"
                 />
             </div>
 
             <div class="form-group">
-                <label id="name-label" for="adresse">Adresse Postale</label>
+                <label id="name-label" for="adresse"></label>
                 <input
                 type="text"
                 name="adp"
                 id="adress"
                 class="form-control"
+                placeholder="Adresse Postale"
                 required
                 />
             </div>
 
             <div class="form-group">
                 <label id="date-label" for="datebirth"
-                >Date de Naissance<span class="clue"></span></label
+                ><span class="clue"></span></label
                 >
                 <input
                 type="date"
@@ -84,13 +89,14 @@
                 id="dnaiss"
                 max = "2005-05-28"
                 class="form-control"
+                placeholder="Date de Naissance"
                 />
             </div>
 
       
             <div class="form-group">
                 <label id="number-label" for="number"
-                >Code Postal<span class="clue"></span></label
+                ><span class="clue"></span></label
                 >
                 <input
                 type="number"
@@ -99,16 +105,18 @@
                 minlenght="5"
                 maxlength="5"
                 class="form-control"
+                placeholder="Code Postale"
                 />
             </div>
 
             <div class="form-group">
-                <label id="name-label" for="ville">Ville</label>
+                <label id="name-label" for="ville"></label>
                 <input
                 type="text"
                 name="ville"
                 id="city"
                 class="form-control"
+                placeholder="Ville"
                 required
                 />
             </div>
