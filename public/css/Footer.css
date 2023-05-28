@@ -26,16 +26,5 @@ p,ul{
     margin-top: 10%;
     text-align: center;
 }
- 
-.contenu{
-    height: 100%; /*Le contenu prend 100% de la page */
-    margin-bottom: -100px; /*L'opposé de la taille du footer */
-}
- 
- 
-body{
-    height: 100%;
-    margin: 0; /* pas de marge */
-    padding: 0; /*ni de padding */
-}
+
 
