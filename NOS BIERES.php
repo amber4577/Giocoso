@@ -30,12 +30,18 @@
     <div class="container">
  
     <li>
-        <img src = "./public/images/bieres/biere_electro.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 85%;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_funky.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 85%;">
     </li>
     <li>
-        <img src = "./public/images/bieres/biere_jazz.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 85%;">
+    </li>
+    <li>
+        <img src = "./public/images/bieres/biere_rock.png" alt = "bière rock" style=" width: 85%;">
+    </li>
+    <li>
+        <img src = "./public/images/bieres/biere_tango.png" alt = "bière tango" style=" width: 85%;">
     </li>
 </div>
