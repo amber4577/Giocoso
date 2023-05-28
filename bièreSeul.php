@@ -36,6 +36,9 @@ body{
     </style>
 
 <body>
+    <a href="NOS BIERES.php">
+<p class="sortir">X</p>
+</a>
     <header>
     <!-- 33 cl = 2,90€ + 2,90€
     75 cl = 4,20€ changer d'affichage-->
@@ -105,7 +108,4 @@ if (isset($_POST['decrement'])) {
     </a>
 </body>
 </header>
-
-
-
 

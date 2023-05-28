@@ -1,5 +1,5 @@
 body {
-    background-color: #202020;
+    background-color: #232323;
 }
 
 
@@ -14,7 +14,7 @@ nav.menu ul {
     height : 70px;
     color : #202020;
     font-family:"Gilroy ExtraBold";
-    margin-left: 350px;
+    margin-inline: auto;
   }
 
 nav.menu li {
@@ -132,7 +132,7 @@ h3 {
     height: 401px;
     width : 575px;
     text-align: center;
-    margin-left: 475px;
+    margin-inline: auto;
     margin-top : 100px;
 }
 
