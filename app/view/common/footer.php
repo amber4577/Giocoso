@@ -9,6 +9,7 @@
     <style>
         body{
         background-image: url("public/images/logo_rs/FIN2.png") ;
+        position : absolute;
     }
         </style>
     <footer>
