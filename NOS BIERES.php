@@ -15,17 +15,7 @@
 
 <body>
     
-    <div class="Presentation">
-        <img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;">
-        
-            
-        <h1>HARMONIE</h1>
-        <p>
-            Laissez vous conquérir par la gamme Harmonie. Les goûts s’accordent à la perfection pour un mélange harmonieux.</br> 
-
-            Funky, Jazz, Rock et bien d'autres sauront vous emporter dans un accords exquis. 
-        </p>
-    </div>
+    <?php include 'presentationgamme.php';?> 
  
     <div class="container">
  
@@ -59,5 +49,6 @@
 
 <footer>
         <?php include 'app/view/common/footer.php';?>     
-    </footer>
+</footer>
+
 </body>
