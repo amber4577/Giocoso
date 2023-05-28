@@ -105,7 +105,7 @@
                 minlenght="5"
                 maxlength="5"
                 class="form-control"
-                placeholder="Code Postale"
+                placeholder="Code Postal"
                 />
             </div>
 
