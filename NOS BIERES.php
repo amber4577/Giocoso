@@ -32,21 +32,26 @@
     <li>
         <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 60%; background-color: #D11FE3;
         border-radius: 2em; height : 300px;">
+        <p>ELECTRO</p>
     </li>
     <li>
         <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 60%; background-color: #FF398A;
         border-radius: 2em; height : 300px;">
+        <p>FUNKY</p>
     </li>
     <li>
         <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 60%; background-color: #ffcb3d;
         border-radius: 2em; height : 300px;">
+        <p>JAZZ</p>
     </li>
     <li>
         <img src = "./public/images/bieres/biere_rock.png" alt = "bière rock" style=" width: 60%; background-color:#A81A16 ;
        border-radius: 2em; height : 300px;">
+       <p>ROCK</p>
     </li>
     <li>
         <img src = "./public/images/bieres/biere_tango.png" alt = "bière tango" style=" width: 60%; background-color:#EA3434;
         border-radius: 2em;; height : 300px;">
+        <p>TANGO</p>
     </li>
 </div>
