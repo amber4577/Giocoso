@@ -19,7 +19,9 @@
         </div>
 
         <section class="publicite">
-            <h2>NOTRE PUBLICITE</h2>
+            <video controls loop autoplay>
+                <source src="public/video/pub.mp4" type="video/mp4">
+            </video>
         </section>
 
         <section class="gamme">
