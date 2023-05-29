@@ -9,7 +9,7 @@
 
 <body>
     <div class="home">
-        <video controls loop autoplay>
+        <video loop autoplay>
             <source src="public/video/pub.mp4" type="video/mp4">
         </video>
     </div>
