@@ -61,13 +61,11 @@ h2 {
     text-align: center;
 }
 
-.publicite {
-    border : 1px solid #FF398A;
+video {
     height : 400px;
     width : 800px;
-    margin-left: 350px;
-    margin-top : 150px;
 }
+
 
 #barrederecherche {
     width : 600px;
