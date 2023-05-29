@@ -82,7 +82,8 @@ video {
 }
 
 .gamme {
-    margin-top: 400px;
+    position : relative;
+    bottom : 400px;
 }
 
 .brasserie {
