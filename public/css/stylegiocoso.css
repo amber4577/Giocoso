@@ -61,6 +61,11 @@ h2 {
     text-align: center;
 }
 
+.publicite {
+    height: 100vh;
+    position: relative;
+}
+
 video {
     position: absolute;
     width: 100%;
@@ -81,10 +86,6 @@ video {
     border-radius: 2em;
 }
 
-.gamme {
-    position : relative;
-    bottom : 400px;
-}
 
 .brasserie {
     background-color: black;
