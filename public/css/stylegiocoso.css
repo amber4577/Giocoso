@@ -61,18 +61,6 @@ h2 {
     text-align: center;
 }
 
-.publicite {
-    height: 100vh;
-    position: relative;
-}
-
-video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 
 #barrederecherche {
     width : 600px;
