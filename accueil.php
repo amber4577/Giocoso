@@ -26,10 +26,6 @@
             </video>
         </section>
 
-        <section class="gamme">
-            <?php include 'presentationgamme.php';?> 
-        </section>
-    
         <section class="brasserie">
             <h2>LA BRASSERIE</h2>
             <p style="font-size : 16px;"> Giocoso c'est la brasserie où vous rendre pour passer un moment festif </br>
