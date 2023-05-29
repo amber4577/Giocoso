@@ -2,7 +2,7 @@
     height: 100vh;
     position: relative;
 }
-video {
+.home video {
     width: 50%;
     height: 50%;
     display : block;
