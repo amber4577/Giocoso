@@ -47,13 +47,6 @@
         <p>TANGO         4,20 €</p>
     </li>
     
-    <li>
-    <img src = "./public/images/bieres/biere_rock.png" alt = "biére elecrto" style=" width: 85%;">
-    </li>
-    
-    <li>
-    <img src = "./public/images/bieres/biere_tango.png" alt = "biére elecrto" style=" width: 85%;">
-   </li>
 </div>
 
 
