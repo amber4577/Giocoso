@@ -10,6 +10,8 @@
     <?php endif ?>
 </head>
 <body>
+
+
     <header>
         <section class="logo">
             <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
