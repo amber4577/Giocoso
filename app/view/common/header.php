@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8"/>
     <title><?= $page_title ?></title>
@@ -9,9 +10,9 @@
     <?php endif ?>
 </head>
 <header>
+    <a href="accueil.php">
     <section class="logo">
-        <img src="logo_giocoso.png"/>
-        <img src="./images/imgheader/logo_giocoso.png"/>
+    <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
     </section>
 </header>
 <body>

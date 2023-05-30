@@ -1,13 +1,8 @@
 
 p,ul{
     font-family: 'fredoka one';
-    font-size: 2em;
-    list-style-type: none;  
-}
-
-body{
-    background-repeat: no-repeat;
-    margin-top: 25%;   
+    list-style-type: none;
+    font-size: 2em;  
 }
 
 .Horaires{
@@ -24,14 +19,12 @@ body{
     align-items: end;
     justify-content:start;
     margin-right: 3%;
+    margin-top: 30%;
 }
 
 .alcool{
-margin-top: 10%;
-text-align: center;
-
+    margin-top: 10%;
+    text-align: center;
 }
 
-footer{
-    margin-top: 22%;
-}
+
