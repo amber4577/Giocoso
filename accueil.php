@@ -21,9 +21,7 @@
         </div>
 
         <section class="publicite">
-            <video controls loop autoplay>
-                <source src="public/video/pub.mp4" type="video/mp4">
-            </video>
+        <?php include 'publicite.php';?> 
         </section>
 
         <section class="gamme">
