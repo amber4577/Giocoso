@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Le Footer</title>
-    <link rel="stylesheet" href="public/css/footer.css">
-    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
-</head>
-<body>
-    <style>
-        body{
-        background-image: url("public/images/logo_rs/FIN2.png") ;
-        background-repeat: no-repeat;
-        background-position: bottom;        
-    }
-        </style>
-    <footer>
+
+        <footer>
+
         <ul class="Horaires">
             <li>
                 HORAIRES
@@ -51,16 +38,16 @@
         </ul>
 
         <div class="RS">
-            <a href="url">          
-                <img src="public/images/logo_rs/facebook.png" alt=Facebook>
+            <a href="url">
+                <img src="./image/facebook.png" alt="facebook">
             </a>
 
             <a href="url">
-                <img src="public/images/logo_rs/twitter.png" alt="twitter">
+            <img src="./image/twitter.png" alt="twitter">
             </a>
             
             <a href="url">
-                <img src="public/images/logo_rs/instagram.png" alt="instagram">
+            <img src="./image/instagram.png" alt="instagram">
             </a>
         </div>
 
@@ -68,5 +55,5 @@
            L'abus d'alcool est dangereux pour la santé. A consommer avec modération.
         </p>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

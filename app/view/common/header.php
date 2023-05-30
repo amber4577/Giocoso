@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Le Footer</title>
-    <link rel="stylesheet" href="public/css/header.css">
+    <meta charset="UTF-8"/>
+    <title><?= $page_title ?></title>
+    
+    <link  rel="stylesheet" href="Footer.css" href='https://fonts.googleapis.com/css?family=Fredoka One'>
+    <?php if (isset($css)): ?>
+        <link rel="stylesheet" href="public/css/<?= $css ?>">
+    <?php endif ?>
 </head>
 <header>
     <a href="accueil.php">
     <section class="logo">
     <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
     </section>
-    <?php include 'app/view/common/nav.php'; ?>
-</header>     
+</header>
+<body>
+
