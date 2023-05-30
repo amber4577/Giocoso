@@ -13,6 +13,7 @@
     <a href="accueil.php">
     <section class="logo">
     <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
+    <?php include 'app/view/common/nav.php';?>   
     </section>
 </header>
 <body>
