@@ -1,0 +1,9 @@
+.home {
+    height: 50vh;
+    position: relative;
+}
+.home video {
+    width: 50%;
+    height: 50%;
+    display : block;
+}

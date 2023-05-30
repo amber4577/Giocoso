@@ -18,7 +18,11 @@
             </div>
 
             <div id="boutton">
-                <button class="validation" style="background-color: #70F8BA;">CREER MON NUMERO</button></a>
+                <a href="compteclientform.php"><button class="validation" style="background-color: #70F8BA;">CREER MON NUMERO</button></a>
             </div>
     </section>
+
+    <footer>
+        <?php include 'app/view/common/footer.php';?>     
+    </footer>
 </body>

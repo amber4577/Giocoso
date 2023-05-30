@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accueil</title>
     <link rel="stylesheet" href="public/css/stylegiocoso.css">
 </head>
+
+
 <header>
-    <?php include 'app/view/common/header.php';?>     
+    <?php include 'app/view/common/header.php';?>    
+     
 </header>
+
 <body>
+
     <div class="contenu">
         <div id="searchbar">
             <input id="barrederecherche" onkeyup="recherche" type="text" name="search" placeholder="Bières, verres, dessous de table...">
         </div>
 
         <section class="publicite">
-            <h2>NOTRE PUBLICITE</h2>
+            <iframe width="560" height="315" src="https://youtu.be/h_TLhlCYiVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section class="gamme">
-            <h2>HARMONIE</h2>
+            <?php include 'presentationgamme.php';?> 
         </section>
     
         <section class="brasserie">
@@ -34,8 +41,8 @@
                 Giocoso, Inspire by beat ! </br>
             </p>
 
-            <a href="events.html"><button class="validation">Nos évènements</button></a>
-            <a href="discovermore.html"><button class="validation">En savoir plus</button></a>
+            <a href="events.html"><button class="validation" style="background-color: #70F8BA;">Nos évènements</button></a>
+            <a href="discovermore.html"><button class="validation" style="background-color: #70F8BA;">En savoir plus</button></a>
         </section>
     </div>
 

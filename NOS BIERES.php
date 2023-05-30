@@ -10,35 +10,41 @@
 </head>
 
 <header>
-    <?php include 'app/view/common/nav.php';?>     
+    <?php include 'app/view/common/header.php';?>     
 </header>
 
 <body>
     
-    <div class="Presentation">
-        <img src="./public/images/bieres/gamme_bouteilles.png" alt="gammede bières Harmonie" style=" width: 85%; margin-left:-25%  ;">
-        
-            
-        <h1>HARMONIE</h1>
-        <p>
-            Laissez vous conquérir par la gamme Harmonie. Les goûts s’accordent à la perfection pour un mélange harmonieux. 
-
-            Funky, Jazz, Rock et bien d'autres sauront vous emporter dans un accords exquis. 
-        </p>
-    </div>
+    <?php include 'presentationgamme.php';?> 
  
     <div class="container">
  
     <li>
-        <img src = "./public/images/bieres/biere_electro.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 80%; background-color: #D11FE3;
+        border-radius: 2em; height : 300px;">
+        <p>ELECTRO         4,20 €</p>
     </li>
     
     <li>
-        <img src = "./public/images/bieres/biere_funky.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 80%; background-color: #FF398A;
+        border-radius: 2em; height : 300px;">
+        <p>FUNKY         4,20 €</p>
     </li>
     
     <li>
-        <img src = "./public/images/bieres/biere_jazz.png" alt = "biére elecrto" style=" width: 85%;">
+        <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 80%; background-color: #ffcb3d;
+        border-radius: 2em; height : 300px;">
+        <p>JAZZ         4,20 €</p>
+    </li>
+    <li>
+        <img src = "./public/images/bieres/biere_rock.png" alt = "bière rock" style=" width: 80%; background-color:#A81A16 ;
+       border-radius: 2em; height : 300px;">
+       <p>ROCK         4,20 €</p>
+    </li>
+    <li>
+        <img src = "./public/images/bieres/biere_tango.png" alt = "bière tango" style=" width: 80%; background-color:#EA3434;
+        border-radius: 2em; height : 300px;">
+        <p>TANGO         4,20 €</p>
     </li>
     
     <li>
@@ -49,3 +55,10 @@
     <img src = "./public/images/bieres/biere_tango.png" alt = "biére elecrto" style=" width: 85%;">
    </li>
 </div>
+
+
+<footer>
+        <?php include 'app/view/common/footer.php';?>     
+</footer>
+
+</body>

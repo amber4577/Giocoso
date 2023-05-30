@@ -19,6 +19,7 @@ p,ul{
     align-items: end;
     justify-content:start;
     margin-right: 3%;
+    margin-top: 30%;
 }
 
 .alcool{
@@ -26,21 +27,4 @@ p,ul{
     text-align: center;
 }
 
-footer {
-    height:200px;  /*La taille de ton footer */
-    background-image: url(public/images/logo_rs/FIN2.png);
- 
-}
- 
-.contenu{
-    height: 100%; /*Le contenu prend 100% de la page */
-    margin-bottom: -100px; /*L'opposé de la taille du footer */
-}
- 
- 
-body{
-    height: 100%;
-    margin: 0; /* pas de marge */
-    padding: 0; /*ni de padding */
-}
 

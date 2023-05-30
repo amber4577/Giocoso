@@ -3,21 +3,10 @@ body{
   
 }
 
-
-
-button a{
-    text-decoration: none;
-    color: #232323;
-    font-family: 'Fredoka', sans-serif;
-    border: none;
-    font-size: 2rem;
-}
-
-
 p{
-    font-family: gilroy light;
+    font-family:"Gilroy light";
     color: #ffffff; 
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -42,6 +31,11 @@ h1{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+.Presentation img {
+    float : left;
+}
+
 .texte{
     display: flex;
     justify-content: flex-start;
@@ -53,46 +47,21 @@ h1{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
     gap : 56px;
-    /*// 
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
-   */
+    margin-left: 100px;
   }
-  
 
 
-.FUNKY{
-
-background-color:  #FF398A;
-border-radius: 56px;
-
+.container li {
+    list-style-type: none;
 }
 
-.ELECTRO{
-background-color: #D11FE3;
-border-radius: 56px;
-
-}
-
-.JAZZ{
-background-color: #ffcb3d;
-border-radius: 56px;
-
-}
-
-.ROCK{
-background-color:#A81A16 ;
-border-radius: 56px;
-
-}
-
-.TANGO{
-background-color:#EA3434;
-border-radius: 56px;
-
+.container li p {
+    font-family:"Gilroy ExtraBold";
+    text-align: center;
+    font-size: 30px;
+    position : relative;
+    left : -40px;
 }

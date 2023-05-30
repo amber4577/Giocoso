@@ -1,5 +1,5 @@
 body {
-    background-color: #202020;
+    background-color: #232323;
 }
 
 
@@ -14,7 +14,7 @@ nav.menu ul {
     height : 70px;
     color : #202020;
     font-family:"Gilroy ExtraBold";
-    margin-left: 350px;
+    margin-inline: auto;
   }
 
 nav.menu li {
@@ -61,13 +61,6 @@ h2 {
     text-align: center;
 }
 
-.publicite {
-    border : 1px solid #FF398A;
-    height : 400px;
-    width : 800px;
-    margin-left: 350px;
-    margin-top : 150px;
-}
 
 #barrederecherche {
     width : 600px;
@@ -81,9 +74,6 @@ h2 {
     border-radius: 2em;
 }
 
-.gamme {
-    margin-top: 100px;
-}
 
 .brasserie {
     background-color: black;
@@ -132,7 +122,7 @@ h3 {
     height: 401px;
     width : 575px;
     text-align: center;
-    margin-left: 475px;
+    margin-inline: auto;
     margin-top : 100px;
 }
 
@@ -158,3 +148,46 @@ h3 {
     color : black;
     margin-top : 40px;
 }
+
+
+.container2 {
+    width: 70%;
+    margin: 3.125rem auto 0 auto;
+    background-color: #FF398A;
+    border-radius: 2em;
+  }
+
+
+form {
+    padding: 2.5rem 0.625rem;
+    border-radius: 56px;
+    text-align: center;
+  }
+
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    display: block;
+    position : relative;
+    left : 140px;
+  }
+  
+.form-control {
+    display: block;
+    width: 70%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #232323;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+.form-control:focus {
+    border-color: #FFB904;
+    outline: 0;
+    box-shadow: 0 0 0 0.5rem #70F8BA;
+  }
