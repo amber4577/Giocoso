@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
-    <link rel="stylesheet" href="public/css/stylegiocoso.css">
-</head>
-
-
-<header>
-    <?php include 'app/view/common/header.php';?>    
-     
-</header>
-
-<body>
-
+<main>
     <div class="contenu">
         <div id="searchbar">
             <input id="barrederecherche" onkeyup="recherche" type="text" name="search" placeholder="Bières, verres, dessous de table...">
@@ -46,7 +30,4 @@
         </section>
     </div>
 
-    <footer>
-        <?php include 'app/view/common/footer.php';?>     
-    </footer>
-</body>
+</main>
