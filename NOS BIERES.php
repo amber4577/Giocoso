@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Nos bières</title>
-    <link rel="stylesheet" href="public/css/NosBières.css">
+    <link rel="stylesheet" href=".app/public/css/NosBières.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
@@ -24,11 +24,13 @@
         border-radius: 2em; height : 300px;">
         <p>ELECTRO         4,20 €</p>
     </li>
+    
     <li>
         <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 80%; background-color: #FF398A;
         border-radius: 2em; height : 300px;">
         <p>FUNKY         4,20 €</p>
     </li>
+    
     <li>
         <img src = "./public/images/bieres/biere_jazz.png" alt = "bière jazz" style=" width: 80%; background-color: #ffcb3d;
         border-radius: 2em; height : 300px;">
@@ -44,6 +46,7 @@
         border-radius: 2em; height : 300px;">
         <p>TANGO         4,20 €</p>
     </li>
+    
 </div>
 
 
