@@ -18,13 +18,21 @@
     <?php include 'presentationgamme.php';?> 
  
     <div class="container">
- 
+  
+    <?php foreach 
+        $bieres = 
+        $image = 
+        $prix = 
+        foreach (iterable_expression as $bieres )
+            unset($bieres);
+        >
     <li>
         <img src = "./public/images/bieres/biere_electro.png" alt = "bière electro" style=" width: 80%; background-color: #D11FE3;
         border-radius: 2em; height : 300px;">
         <p>ELECTRO         4,20 €</p>
     </li>
     
+   
     <li>
         <img src = "./public/images/bieres/biere_funky.png" alt = "bière funky" style=" width: 80%; background-color: #FF398A;
         border-radius: 2em; height : 300px;">
