@@ -10,10 +10,11 @@
     <?php endif ?>
 </head>
 <header>
-    <a href="accueil.php">
     <section class="logo">
-    <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
+        <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
     </section>
+    
+    <?php include 'app/view/common/nav.php';?>   
 </header>
 <body>
 
