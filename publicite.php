@@ -9,9 +9,6 @@
 
 <body>
     <div class="home">
-        <video loop autoplay>
-            <source src="public/video/pub.mp4" type="video/mp4">
-        </video>
+    <iframe width="560" height="315" src="https://youtu.be/h_TLhlCYiVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
 </body>
