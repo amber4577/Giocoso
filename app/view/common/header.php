@@ -9,12 +9,13 @@
         <link rel="stylesheet" href="public/css/<?= $css ?>">
     <?php endif ?>
 </head>
-<header>
-    <section class="logo">
-        <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
-    </section>
-    
-    <?php include 'app/view/common/nav.php';?>   
-</header>
 <body>
 
+
+    <header>
+        <section class="logo">
+            <a href="accueil.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
+        </section>
+    
+        <?php include 'app/view/common/nav.php';?>   
+    </header>

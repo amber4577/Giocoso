@@ -21,7 +21,7 @@
             </div>
 
             <div id="boutton">
-                <button class="validation" style="background-color: #FFB904;">RECUPERER MES INFORMATIONS</button>
+                <button class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button>
             </div>
     </section>
 
