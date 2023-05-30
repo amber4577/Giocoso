@@ -17,23 +17,23 @@
             </li>
 
             <li>
-                Mercredi : 14h - 23h 
+                Mercredi : 14h - 23h
             </li>
 
             <li>
-                Jeudi : 14h - 23h 
+                Jeudi : 14h - 23h
             </li>
             
             <li>
-                Vendredi : 14h - 01h 
+                Vendredi : 14h - 01h
             </li>
 
             <li>
-                Samedi : 14h - 01h 
+                Samedi : 14h - 01h
             </li>
 
             <li>
-                Dimanche : 14h - 23h 
+                Dimanche : 14h - 23h
             </li>
         </ul>
 
