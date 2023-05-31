@@ -1,11 +1,4 @@
-<header>
-    <?php include 'app/view/common/header.php'; ?>
-</header>
-
-<body>
-
-    <footer>
-        <?php include 'app/view/common/footer.php'; ?>
-    </footer>
-
-</body>
+ob_start();
+require_once 'app/view/NosBieres.view.php';
+$content = ob_get_clean();
+require_once 'app/view/common/layout.php'; 
