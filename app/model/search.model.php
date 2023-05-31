@@ -1,9 +1,9 @@
 <?php
 
-function getPokedexByName(string $name, PDO $db): array
+function getBiereByName(string $name, PDO $db): array
 {
     $sql = "SELECT  reference, nom FROM bière
-            WHERE nom LIKE :nomBiere AND num_forme=0";
+            WHERE nom LIKE :nomBiere";
     $stmt = $db->prepare($sql);
     $stmt->bindValue('nomBiere', '%' .  $name . '%', PDO::PARAM_STR);
     $stmt->execute();
