@@ -2,4 +2,4 @@
 
 <?= $content ?>
 
-<?php include 'app/view/common/footer.php'; ?>
+<?php include 'app/view/common/footer.php'; ?>  
