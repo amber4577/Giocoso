@@ -8,7 +8,7 @@ require_once 'app/model/biere.model.php';
 $page_title = 'Accueil';
 
 ob_start();
-require_once 'app/view/common/acceuil.view.php';
+require_once 'app/view/common/accueil.view.php';
 $content = ob_get_clean();
 $css = "public/css/stylegiocoso.css";
 require_once 'app/view/common/layout.php';
