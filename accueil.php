@@ -1,52 +1,14 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
-    <link rel="stylesheet" href="public/css/stylegiocoso.css">
-</head>
+<?php
 
+require_once 'database.php';
+require_once 'app/model/dataConnection.php';
+require_once 'app/model/biere.model.php';
 
-<header>
-    <?php include 'app/view/common/header.php';?>    
-     
-</header>
+//Génération de la page
+$page_title = 'Accueil';
 
-<body>
-
-    <div class="contenu">
-        <div id="searchbar">
-            <input id="barrederecherche" onkeyup="recherche" type="text" name="search" placeholder="Bières, verres, dessous de table...">
-        </div>
-
-        <section class="publicite">
-            <iframe width="560" height="315" src="https://youtu.be/h_TLhlCYiVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <section class="gamme">
-            <?php include 'presentationgamme.php';?> 
-        </section>
-    
-        <section class="brasserie">
-            <h2>LA BRASSERIE</h2>
-            <p style="font-size : 16px;"> Giocoso c'est la brasserie où vous rendre pour passer un moment festif </br>
-                tout en profitant de la musique et de nos boissons.</br></p>
-            <p style="font-size : 16px;">
-                Vous passerez un moment inoubliable en compagnie de plein d'autres personnes</br>
-                partageant notre passion commune pour la musique, la fête et la bière ! </br></p>
-        
-            <p style="font-size : 16px;">
-                Venez boire un coup chez-nous, vous ne le regretterez pas ! </br>
-                Giocoso, Inspire by beat ! </br>
-            </p>
-
-            <a href="events.html"><button class="validation" style="background-color: #70F8BA;">Nos évènements</button></a>
-            <a href="discovermore.html"><button class="validation" style="background-color: #70F8BA;">En savoir plus</button></a>
-        </section>
-    </div>
-
-    <footer>
-        <?php include 'app/view/common/footer.php';?>     
-    </footer>
-</body>
+ob_start();
+require_once 'app/view/common/accueil.view.php';
+$content = ob_get_clean();
+$css = "public/css/stylegiocoso.css";
+require_once 'app/view/common/layout.php';
