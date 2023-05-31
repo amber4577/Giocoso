@@ -8,9 +8,9 @@ require_once "config.php";
 $databaseConnection = getDatabaseConnectionMySQL();
 
 if (empty($_GET['search'])){
-    $_SESSION['message'] = ("Veuillez saisir un numéro ou nom de Pokemon");
+    $_SESSION['message'] = ("Veuillez saisir un nom de bière");
     //redirection vers une page :
-    header("localion" . URL . 'pokedex.php');
+    header("localion" . URL . 'NOS_BIERES.php');
 } else if (ctype_digit($_GET['search'])){
     $search = $_GET['search'];
     $pokedex = getPokedexByNum($search,$databaseConnection);
