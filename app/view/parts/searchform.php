@@ -13,3 +13,7 @@
         </div>
     <?php endif ?>
 </section>
+
+<div id="searchbar">
+        <input id="barrederecherche" onkeyup="recherche" type="text" name="search" placeholder="Bières, verres, dessous de table...">
+    </div>
