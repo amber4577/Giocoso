@@ -193,11 +193,6 @@ form {
   }
 
 
-p,ul{
-    font-family: 'fredoka one';
-    list-style-type: none;
-    font-size: 2em;  
-}
 
 .Horaires{
     display: flex;
@@ -205,6 +200,13 @@ p,ul{
     align-items: start;
     float: left;
     margin-left: 3%;
+
+}
+
+.Horaires ul {
+    font-family: 'fredoka one';
+    list-style-type: none;
+    font-size: 2em; 
 }
 
 .RS{
@@ -219,4 +221,10 @@ p,ul{
 .alcool{
     margin-top: 10%;
     text-align: center;
+}
+
+.alcool p {
+    font-family: 'fredoka one';
+    list-style-type: none;
+    font-size: 2em; 
 }
