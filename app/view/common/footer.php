@@ -48,15 +48,15 @@
 
         <div class="RS">
             <a href="url">
-                <img src="public/image/facebook.png" alt="facebook">
+                <img src="public/images/facebook.png" alt="facebook">
             </a>
 
             <a href="url">
-            <img src="public/image/twitter.png" alt="twitter">
+                <img src="public/images/twitter.png" alt="twitter">
             </a>
             
             <a href="url">
-            <img src="public/image/instagram.png" alt="instagram">
+                <img src="public/images/instagram.png" alt="instagram">
             </a>
         </div>
 
