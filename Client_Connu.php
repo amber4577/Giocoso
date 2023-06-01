@@ -15,14 +15,17 @@
 
     <section class="numeroclient">
             <h3>RENSEIGNER VOTRE NUMERO CLIENT</h3>
-            <input id="barredenum" onkeyup="numero" type="text" name="number">
+            
+               
+            </div>
+<form action="infoClient.php" method="get">
+<input id="barredenum" onkeyup="numero" type="text" name="number">
             <div id="question">
-                <a href="commandeclientinconnu.php"#commconnu>VOUS N'AVEZ PAS DE NUMERO CLIENT ?</a>
+    <div id="boutton">
+                <button type="submit" class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button>
             </div>
-
-            <div id="boutton">
-                <button class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button>
-            </div>
+</form>
+             <a href="commandeclientinconnu.php"#commconnu>VOUS N'AVEZ PAS DE NUMERO CLIENT ?</a>
     </section>
 
     <footer>
