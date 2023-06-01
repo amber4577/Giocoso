@@ -1,6 +1,5 @@
 <?php
 require_once 'app/model/dataConnection.php';
-require_once 'app/model/biere.model.php';
 
 
 $page_title = 'Accueil';
