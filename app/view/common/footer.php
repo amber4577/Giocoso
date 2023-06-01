@@ -1,4 +1,15 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title><?= $page_title ?></title>
+    
+    <link  rel="stylesheet" href="Footer.css" href='https://fonts.googleapis.com/css?family=Fredoka One'>
+    <?php if (isset($css)): ?>
+        <link rel="stylesheet" href="public/css/<?= $css ?>">
+    <?php endif ?>
+</head>
+    <body>
         <footer>
 
         <ul class="Horaires">
@@ -56,4 +67,4 @@
         </p>
     </footer>
     </body>
-    </html>
+ 
