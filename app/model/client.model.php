@@ -15,10 +15,11 @@ function addClient(array $client, PDO $db): bool
 {
 
     try {
-        $sql = 'INSERT INTO client (nom, prenom, adresse_mail, num_tel, adresse_postale, date_naissance, cp, ville)
-                VALUES (:nom, :prenom, :adresse_mail, :num_tel, :adresse_postalen :date_naissance, :cp, :ville)';
+        $sql = 'INSERT INTO client (num_client, nom, prenom, adresse_mail, num_tel, adresse_postale, date_naissance, cp, ville)
+                VALUES (:num_client, :nom, :prenom, :adresse_mail, :num_tel, :adresse_postalen :date_naissance, :cp, :ville)';
 
         $stmt = $db->prepare($sql);
+        $stmt->bindValue('nul_client', $client['num_client']);
         $stmt->bindValue('nom', $client['nom']);
         $stmt->bindValue('prenom', $client['prenom']);
         $stmt->bindValue('adresse_mail', $client['adresse_mail']);
