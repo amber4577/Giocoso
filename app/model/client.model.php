@@ -19,13 +19,13 @@ function addClient(array $client, PDO $db): bool
                 VALUES (:num_client, :nom, :prenom, :adresse_mail, :num_tel, :adresse_postalen :date_naissance, :cp, :ville)';
 
         $stmt = $db->prepare($sql);
-        $stmt->bindValue('nul_client', $client['num_client']);
+        $stmt->bindValue('num_client', $client['num_client']);
         $stmt->bindValue('nom', $client['nom']);
         $stmt->bindValue('prenom', $client['prenom']);
-        $stmt->bindValue('adresse_mail', $client['adresse_mail']);
-        $stmt->bindValue('num_tel', $client['num_tel']);
-        $stmt->bindValue('adresse_posrale', $client['adresse_postale']);
-        $stmt->bindValue('date_naissance', $client['date_naissance']);
+        $stmt->bindValue('email', $client['adresse_mail']);
+        $stmt->bindValue('numtel', $client['num_tel']);
+        $stmt->bindValue('adp', $client['adresse_postale']);
+        $stmt->bindValue('birth', $client['date_naissance']);
         $stmt->bindValue('cp', $client['cp']);
         $stmt->bindValue('ville', $client['ville']);
         return $stmt->execute();
