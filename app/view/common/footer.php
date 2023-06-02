@@ -16,7 +16,8 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-position: bottom;
-        background-size : contain;  
+        background-size : contain;
+        height : 500px;  
         }
         </style>
         <ul class="Horaires">
