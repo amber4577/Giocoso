@@ -1,7 +1,7 @@
 <?php
 
 $page_title = 'Nos Bières';
-$css = 'NosBières.css';
+$css = 'stylegiocoso.css';
 
 ob_start();
 require_once 'app/view/NosBieres.view.php';

@@ -189,3 +189,25 @@ form {
     color : rgb(0, 0, 0);
     border-radius: 2em;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap : 56px;
+    margin-left: 100px;
+  }
+
+
+.container li {
+    list-style-type: none;
+}
+
+.container li p {
+    font-family:"Gilroy ExtraBold";
+    text-align: center;
+    font-size: 30px;
+    position : relative;
+    left : -40px;
+}
