@@ -218,6 +218,9 @@ form {
     align-items: start;
     float: left;
     margin-left: 3%;
+    font-family: 'fredoka one';
+    list-style-type: none;
+    font-size: 2em; 
 }
 
 .RS{
