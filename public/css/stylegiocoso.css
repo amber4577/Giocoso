@@ -61,20 +61,6 @@ h2 {
     text-align: center;
 }
 
-
-#barrederecherche {
-    width : 600px;
-	height: 45px;
-    margin-top: 20px;
-    background-color : rgb(255,255,255);
-    border : 1px solid rgb(255,255,255);
-    margin-left: 450px;
-    margin-top : 100px;
-    color : rgb(255,255,255);
-    border-radius: 2em;
-}
-
-
 .brasserie {
     background-color: black;
     color : rgb(255,255,255);
@@ -191,3 +177,62 @@ form {
     outline: 0;
     box-shadow: 0 0 0 0.5rem #70F8BA;
   }
+
+#barrederecherche {
+    width : 600px;
+	height: 45px;
+    margin-top: 20px;
+    background-color : rgb(255,255,255);
+    border : 1px solid rgb(255,255,255);
+    margin-left: 450px;
+    margin-top : 100px;
+    color : rgb(0, 0, 0);
+    border-radius: 2em;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap : 56px;
+    margin-left: 100px;
+  }
+
+
+.container li {
+    list-style-type: none;
+}
+
+.container li p {
+    font-family:"Gilroy ExtraBold";
+    text-align: center;
+    font-size: 30px;
+    position : relative;
+    left : -40px;
+}
+
+.Horaires{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    float: left;
+    margin-left: 3%;
+    font-family: 'fredoka one';
+    list-style-type: none;
+    font-size: 2em; 
+}
+
+.RS{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content:start;
+    margin-right: 3%;
+    margin-top: 30%;
+}
+
+.alcool{
+    margin-top: 10%;
+    text-align: center;
+}

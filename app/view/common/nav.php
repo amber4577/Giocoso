@@ -1,7 +1,7 @@
 <nav class="menu">
         <ul>
             <li><a href="brasserie.html">LA BRASSERIE</a></li>
-            <li><a href="NOS BIERES.php">BIERES</a></li>
+            <li><a href="NOS_BIERES.php">BIERES</a></li>
             <li><a href="Nous.php">NOUS</a></li>
             <li><a href="compteclientform.php">CONTACT</a></li>
             <li><a href="Client_connu.php"><img src="public/images/imgheader/iconeprofil.png"/></a></li>
