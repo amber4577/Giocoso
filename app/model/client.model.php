@@ -7,5 +7,5 @@ function getDoneClient(int $identifiant, PDO $db): array
     $stmt = $db->prepare($sql);
     $stmt->bindValue('numClient', $identifiant , PDO::PARAM_INT);
     $stmt->execute();
-    return $stmt->fetchAll();
+    return $stmt->fetch();
 }
