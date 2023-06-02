@@ -16,7 +16,7 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-position: bottom;
-        background-size : contain;
+        background-size : cover;
         height : 500px;  
         }
         </style>
