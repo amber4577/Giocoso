@@ -1,12 +1,15 @@
-<?php
-$page_title = 'Inscription';
-$css = 'stylegiocoso.css';
+<body>
+    <h2>MES INFORMATIONS</h2>
 
-ob_start();
-require_once 'app/view/forminscription.view.php';
-require_once 'app/model/client.model.php';
-$content = ob_get_clean();
-require_once 'app/view/common/layout.php';
+    <section class="numeroclient">
+            <h3>CREER VOTRE NUMERO CLIENT</h3>
+            <input id="barredenum" onkeyup="numero" type="text" name="number">
+            <div id="question">
+                <a href="Client_Connu.php"#commconnu>AVEZ-VOUS DEJA UN COMPTE ?</a>
+            </div>
 
-
-addClient($identifiant, $db);
+            <div id="boutton">
+                <button onclick="href='forminscription.php';" style="background-color: #70F8BA;">CREER MON NUMERO</button>
+            </div>
+    </section>
+</body>
