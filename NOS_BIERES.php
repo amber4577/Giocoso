@@ -1,4 +1,10 @@
 <?php
+session_start();
+require_once "app/model/dataConnection.php";
+require_once "app/model/dataConnection.php";
+require_once "config.php";
+
+$databaseConnection = getDatabaseConnectionMySQL();
 
 $bieres = 
 
