@@ -9,7 +9,6 @@ if (empty($_GET['number']) || !ctype_digit($_GET['number'])) {
 $db = getDatabaseConnectionMySQL();
 $identifiant = $_GET['number'];
 $doneclient = getDoneClient($identifiant, $db);
-var_dump($doneclient);die();
 
 $page_title = 'Information du client';
 $css = 'client.css';

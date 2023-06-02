@@ -22,7 +22,7 @@
 <input id="barredenum" onkeyup="numero" type="number" name="number">
             <div id="question">
     <div id="boutton">
-                <a href="client.view.php"><button type="submit" class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button></a>
+                <a href="app/view/client.view.php"><button type="submit" class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button></a>
             </div>
 </form>
              <a href="commandeclientinconnu.php"#commconnu>VOUS N'AVEZ PAS DE NUMERO CLIENT ?</a>
