@@ -15,7 +15,8 @@
         background-image: url("public/images/logo_rs/FIN2.png") ;
         background-repeat: no-repeat;
         background-position: bottom;
-        background-position: bottom; 
+        background-position: bottom;
+        background-size : cover;  
         }
         </style>
         <ul class="Horaires">
