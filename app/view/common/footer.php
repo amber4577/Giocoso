@@ -15,7 +15,7 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-position: bottom;
-        top: 800px;      
+        top: 600px;      
     }
         </style>
         <footer>
