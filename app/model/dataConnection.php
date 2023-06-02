@@ -3,7 +3,7 @@ require_once 'config.php';
 
 function getDatabaseConnectionMySQL(): PDO
 {
-    $dsn = 'mysql:dbname=giocoso.sql;host=' . DB_HOST . ";charset=utf8";
+    $dsn = 'mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';charset=utf8';
 
     try {
         $databaseConnection = new PDO($dsn, DB_USER, DB_PASSWORD);
