@@ -15,7 +15,7 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-position: bottom;
-        top: 1800px;
+        bottom: 1800px;
         height : 400px;      
     }
         </style>
