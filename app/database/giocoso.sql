@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `bière` (
   `gout` text NOT NULL,
   `description` text NOT NULL,
   PRIMARY KEY (`reference`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `bière`
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `client` (
   `cp` int NOT NULL,
   `ville` text NOT NULL,
   PRIMARY KEY (`num_client`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `client`
@@ -105,7 +105,7 @@ DROP TABLE IF EXISTS `commande`;
 CREATE TABLE IF NOT EXISTS `commande` (
   `num_commande` int NOT NULL,
   PRIMARY KEY (`num_commande`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
