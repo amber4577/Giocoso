@@ -9,7 +9,7 @@
             <p><?= $biere['nom'] ?> <p><?= $biere['prix'] ?></p>
         </li>
     <?php endforeach ?>
-
+        
     <li>
         <img src="./public/images/bieres/biere_funky.png" alt="bière funky" style=" width: 80%; background-color: #FF398A;
     border-radius: 2em; height : 300px;">
