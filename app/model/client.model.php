@@ -1,6 +1,6 @@
 <?php
 
-/*function getDoneClient(int $identifiant, PDO $db): array
+function getDoneClient(int $identifiant, PDO $db): array
 {
     $sql = "SELECT * FROM client WHERE num_client=:numClient;";
 
@@ -9,26 +9,3 @@
     $stmt->execute();
     return $stmt->fetchAll();
 }
-*/
-
-  $host = 'localhost';
-  $dbname = 'giocoso';
-  $username = 'root';
-  $password = '';
-    
-  $dsn = "mysql:host=$host;dbname=$dbname"; 
-  // récupérer tous les utilisateurs
-  $sql = "SELECT * FROM client WHERE num_client=:numClient";
-   
-  try{
-   $pdo = new PDO($dsn, $username, $password);
-   $stmt = $pdo->query($sql);
-   
-   if($stmt === false){
-    die("Erreur");
-   }
-   
-  }catch (PDOException $e){
-    echo $e->getMessage();
-  }
-?>
