@@ -9,17 +9,16 @@
 </head>
 
 <body>
-    <style>
-        body{
+        <footer>
+        <style>
+            footer{
         background-image: url("public/images/logo_rs/FIN2.png") ;
         background-repeat: no-repeat;
         background-position: bottom;
         background-position: bottom;
         background-size : auto;  
-    }
+        }
         </style>
-        <footer>
-
         <ul class="Horaires">
             <li>
                 HORAIRES
