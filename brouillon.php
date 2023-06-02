@@ -58,3 +58,12 @@ body{
 footer{
     margin-top: 22%;
 }
+
+
+<?php foreach ($bieres as $biere) : ?>
+        <li>
+            <img src="public/images/bieres/biere_electro.png" alt="bières <?= $biere['nom'] ?>" style=" width: 80%; background-color: #D11FE3;
+    border-radius: 2em; height : 300px;">
+            <p><?= $biere['nom'] ?> <p><?= $biere['prix'] ?></p>
+        </li>
+    <?php endforeach ?>
