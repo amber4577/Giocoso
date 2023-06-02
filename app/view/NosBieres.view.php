@@ -8,8 +8,8 @@
     border-radius: 2em; height : 300px;">
             <p>ELECTRO 4,20€</p>
         </li>
-    
-
+    <?php endforeach ?>
+        
     <li>
         <img src="public/images/bieres/biere_funky.png" alt="bière funky" style=" width: 80%; background-color: #FF398A;
     border-radius: 2em; height : 300px;">
