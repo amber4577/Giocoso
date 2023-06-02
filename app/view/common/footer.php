@@ -16,7 +16,7 @@
         background-position: bottom;
         background-position: bottom;
         top: 1800px;
-        height : 600px;      
+        height : 400px;      
     }
         </style>
         <footer>
