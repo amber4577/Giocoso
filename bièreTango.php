@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Bière Funky</title>
+    <title>Bière Jazz</title>
     <link rel="stylesheet" href="public/css/b.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,21 +10,29 @@
 
 </head>
 <style>
-    header{
-  background-image: url("public/images/page_biere_seule/vagueM.png");
-  background-repeat: no-repeat;
-  background-position: 80%;
+    *{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
 }
-body{
-  background-color: #ff398a; 
-    background-image: url("public/images/page_biere_seule/partD.png");
+body {
+    background-color: #232323; 
+    background-image: url("public/images/page_biere_seule/partDRock.png");
     background-repeat: no-repeat;
     background-position: right; 
+    background-position: 100%;
 }
+header{
+    background-image: url("public/images/page_biere_seule/VagueRock.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-position: 77%;
+}
+
 .AjPanier{
-    background-color: #ff398a;
+    background-color: #ffB904;
     width: 76%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 0px 56px 56px 0px;
@@ -36,17 +44,13 @@ body{
     </style>
 
 <body>
-    <a href="NOS BIERES.php">
-<p class="sortir" style="width: 50%;">X</p>
-</a>
     <header>
     <!-- 33 cl = 2,90€ + 2,90€
     75 cl = 4,20€ changer d'affichage-->
-    <!-- <img  src="./images/vagueM.png" class="Millieu"> -->
+    
 
     <div class="BiereMockup">
-        <img src="public/images/page_biere_seule/effect.png"alt="effet">
-        <img class="effet" src="public/images/page_biere_seule/Funky_Mockup.png" alt="mockup">
+        <img class="effet" src="public/images/page_biere_seule/Jazz_Mockup.png" alt="mockup">
     </div>
     
         <p class="prix">
@@ -57,24 +61,17 @@ body{
             cette boisson au goût cerise,
             framboise. Cette boisson musicalement envoûtante vous fera danser jusqu'à la fin de la soirée.
 
-            A remplacer
-             
-            
+            A remplacer Part du php
         </p>
-        <img src="public/images/page_biere_seule/Funky.png" class="Funky">
+        <img src="public/images/page_biere_seule/Rock.png" class="Rock">
    
-    <div class="FBiere">
-        <p class="cl">Format</p>
-        <button class="cl">33cl</button>
-        <button class="cl">75cl</button>  
-    </div>
 
     <!-- Boutons pour ajouter ou enlever -->
     <?php
 session_start();
 
 if (!isset($_SESSION['counter'])) {
-    $_SESSION['counter'] = 0; 
+    $_SESSION['counter'] = 1; 
 }
 
 
@@ -86,12 +83,11 @@ if (isset($_POST['increment'])) {
 
 if (isset($_POST['decrement'])) {
 
-    if ($_SESSION['counter'] > 0) {
+    if ($_SESSION['counter'] > 1) {
         $_SESSION['counter']--;
     }
 }
 ?>
-
     
             <div class="Ajout">
                 <div class="Boutons">
@@ -99,15 +95,14 @@ if (isset($_POST['decrement'])) {
                 
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <button class="PLUS" type="submit" name="increment">+</button>
-                        <button class="SOUS" type="submit" name="decrement">-  </button>
+                        <button class="SOUS" type="submit" name="decrement">-</button>
                     </form>
             </div>
 
 
         <p class="AjPanier">Ajouter aux panier</p>
     </div>
-
-    <a href="NOS BIERES.php">
+    
     <button class="ContAchat">Continuer mes achats</button>
     </a>
 </body>

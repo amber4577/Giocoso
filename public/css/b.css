@@ -2,20 +2,10 @@
     margin: 0;
     box-sizing: 0;
     padding: 0;
-    
 }
 
-
-
-.Millieu{
-    display: block;
-    margin-left: 42%;
-  }
-
-  .Description{
-    color: azure;
-  }
   p{
+    display: block;
     color: white;
     font-family: 'fredoka one';
   }
@@ -38,15 +28,15 @@
   .Ajout{
     border-radius: 56px;
     border: solid #232323;
-    display: flex;
+    display:inline-flex;
     flex-wrap: wrap;
     width: 40%;
     margin-bottom: 5%;
     margin-left: 55%;
-    margin-top: 3%;
+    margin-top: 15%;
   }
   .Boutons{
-    background-color: #ffB904;
+    background-color: #FFFFFF;
     width: 20%;
     padding: 1%;
     display: flex;
@@ -55,40 +45,40 @@
     border-radius: 56px 0px 0px 56px;
   }
 
-    .BiereMockup{
-      position: relative;
-    }
-    .BiereMockup img{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: auto;
-      height: 700px; /* Hauteur fixe de l'image */
-      margin-top: 3%;
-      margin-left: 5%;
-    }
+  .BiereMockup{
+    position: relative;
+  }
+  .BiereMockup img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 700px; /* Hauteur fixe de l'image */
+    margin-top: 3%;
+    margin-left: 5%;
+  }
 
-    .BiereMockup .effet{
-      top: 100px;
-      width: auto;
-      height: 600px; /* Hauteur fixe de l'image */
-      margin-left: 16%;
-      margin-top: 1%;
-    }
-
+  .BiereMockup .effet{
+    top: 100px;
+    width: auto;
+    height: 600px; /* Hauteur fixe de l'image */
+    margin-left: 5%;
+    margin-top: 1%;
+  }
     .prix{
       position: absolute;
       left: 75%;
-      top: 30%;
-      font-size: 30px;      
+      top: 35%;
+      font-size: 30px;    
     }
 
     .Description{
+      
       display: block;
       font-family: 'gilroy';
       position: absolute;
       margin-left: 65%;
-      margin-top: 20%;
+      margin-top: 22%;
       margin-right: 10%;
     }
 
@@ -96,12 +86,6 @@
       float: right;
       margin-right: 10%;
       margin-top: 5%;
-    }
-
-    .FBiere{
-      margin-left: 64%;
-      display: inline-flex;
-      margin-top: 6%;      
     }
 
     .cl{
@@ -139,11 +123,13 @@
       color: #232323;
       margin-top: 9%;
     }
-
-    .sortir{
+    .Rock{
       float: right;
-      
+      margin-right: 10%;
+      margin-top: 2%;
     }
 
-
-
+    .Rock img{
+    width: auto;
+    height: 600px; /* Hauteur fixe de l'image */
+    }

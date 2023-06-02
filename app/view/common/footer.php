@@ -1,6 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title><?= $page_title ?></title>
+    <?php if (isset($css)): ?>
+        <link rel="stylesheet" href="public/css/<?= $css ?>">
+    <?php endif ?>
+</head>
 
+<body>
         <footer>
-
+        <style>
+            footer{
+        background-image: url("public/images/logo_rs/FIN2.png") ;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position: bottom;
+        background-size : cover;
+        height : 500px;  
+        }
+        </style>
         <ul class="Horaires">
             <li>
                 HORAIRES
@@ -39,15 +58,15 @@
 
         <div class="RS">
             <a href="url">
-                <img src="./image/facebook.png" alt="facebook">
+                <img src="public/images/logo_rs/facebook.png" alt="facebook">
             </a>
 
             <a href="url">
-            <img src="./image/twitter.png" alt="twitter">
+                <img src="public/images/logo_rs/twitter.png" alt="twitter">
             </a>
             
             <a href="url">
-            <img src="./image/instagram.png" alt="instagram">
+                <img src="public/images/logo_rs/instagram.png" alt="instagram">
             </a>
         </div>
 
@@ -56,4 +75,4 @@
         </p>
     </footer>
     </body>
-    </html>
+ 

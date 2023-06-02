@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `bière`
 --
 
-DROP TABLE IF EXISTS `bière`;
+-- DROP TABLE IF EXISTS `bière`;
 CREATE TABLE IF NOT EXISTS `bière` (
   `reference` int NOT NULL,
   `nom` varchar(50) NOT NULL,
@@ -48,11 +48,7 @@ INSERT INTO `bière` (`reference`, `nom`, `prix`, `gout`,`description`) VALUES
 (4, 'Tango', 4.2, 'Coquelicot et Fruits rouges','descrTango'),
 (5, 'Rock', 4.2, 'Poivre, Cerise, Citron Gingembre','descrRock'),
 
-(6, 'Funky', 3.6, 'Cerise et Framboise','descrFunky'),
-(7, 'Jazz', 3.6, 'Mangue et Passion','descrJazz'),
-(8, 'Electro', 3.6, 'Cerise et Pitaya','descrElectro'),
-(9, 'Tango', 3.6, 'Coquelicot et Fruits rouges','descrTango'),
-(10, 'Rock', 3.6, 'Poivre, Cerise, Citron Gingembre','descrRock');
+
 
 -- --------------------------------------------------------
 

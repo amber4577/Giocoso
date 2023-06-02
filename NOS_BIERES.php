@@ -6,7 +6,8 @@ require_once "config.php";
 
 $databaseConnection = getDatabaseConnectionMySQL();
 
-$bieres = 
+$page_title = 'Nos Bières';
+$css = 'stylegiocoso.css';
 
 ob_start();
 require_once 'app/view/NosBieres.view.php';

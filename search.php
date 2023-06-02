@@ -13,12 +13,15 @@ if (empty($_GET['search'])){
     header("location:" . URL . 'NOS_BIERES.php');
 } else {
     $search = $_GET['search'];
-    $pokedex = getPokedexByName($search,$databaseConnection);
+    $biere_recherche = getBiereByName($search,$databaseConnection);
 }
+
+var_dump($biere_recherche);
+die();
 
 $page_title = 'Nos bières';
 
 ob_start();
-require_once 'app/view/NOS_BIERES.php';
+require_once 'app/view/NosBieres.view.php';
 $content = ob_get_clean();
 require_once 'app/view/common/layout.php';
