@@ -211,3 +211,25 @@ form {
     position : relative;
     left : -40px;
 }
+
+.Horaires{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    float: left;
+    margin-left: 3%;
+}
+
+.RS{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content:start;
+    margin-right: 3%;
+    margin-top: 30%;
+}
+
+.alcool{
+    margin-top: 10%;
+    text-align: center;
+}

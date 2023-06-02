@@ -7,7 +7,16 @@
         <link rel="stylesheet" href="public/css/<?= $css ?>">
     <?php endif ?>
 </head>
-    <body>
+
+<body>
+    <style>
+        body{
+        background-image: url("public/images/logo_rs/FIN2.png") ;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position: bottom;        
+    }
+        </style>
         <footer>
 
         <ul class="Horaires">
