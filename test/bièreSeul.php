@@ -51,23 +51,47 @@ body{
     
         <p class="prix">
             4,20€
+            <p><?= $Prices[0]['prix'] ?> <?= getPrices($Prices[0]['prix'],$reference) ?></p>
         </p>
+        
         <p class="Description">
             Vibrez au rythme du son tout en buvant notre bière, savourer les douces mélodies que provoque
             cette boisson au goût cerise,
             framboise. Cette boisson musicalement envoûtante vous fera danser jusqu'à la fin de la soirée.
 
-            A remplacer
-             
-            
+            A remplacer 
         </p>
+
+        <!-- <?php foreach ($pokemons as $pokemon) : ?>
+        <?php $numForm = $pokemon['numBeer']; ?>
+        <div class="right">
+            <figure>
+                <img src="public/images/<?= getBeer($Beer['reference']) . ($FormBeer > 0 ? '_f' . ($FormBeer + 1) : '') ?>.png" class="" />
+            </figure>
+    
+            <p><?= $Beers[0]['prix'] ?> <?= getPrices($Beer[0]['prix']) ?></p>
+            <p><?= $Beers[0]['description'] ?> <?= getDescription($Beer[0]['description']) ?></p>
+            <div id="description-x-<?= $numForm ?>" class="version version-x active"><?= $pokemon['description1'] ?></div>
+            
+        </div>
+    <?php endforeach ?> -->
         <img src="public/images/page_biere_seule/Funky.png" class="Funky">
    
-    <div class="FBiere">
-        <p class="cl">Format</p>
-        <button class="cl">33cl</button>
-        <button class="cl">75cl</button>  
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Boutons pour ajouter ou enlever -->
     <?php
