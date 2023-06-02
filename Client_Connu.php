@@ -19,7 +19,7 @@
                
             </div>
 <form action="infoClient.php" method="get">
-<input id="barredenum" onkeyup="numero" type="text" name="number">
+<input id="barredenum" onkeyup="numero" type="number" name="number">
             <div id="question">
     <div id="boutton">
                 <button type="submit" class="validation" style="background-color:#70F8BA;">RECUPERER MES INFORMATIONS</button>
