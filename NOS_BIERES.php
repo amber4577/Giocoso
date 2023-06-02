@@ -1,6 +1,7 @@
 <?php
 
-$bieres = 
+$page_title = 'Nos Bières';
+$css = 'NosBières.css';
 
 ob_start();
 require_once 'app/view/NosBieres.view.php';
