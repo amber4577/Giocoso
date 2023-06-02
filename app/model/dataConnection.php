@@ -16,6 +16,3 @@ function getDatabaseConnectionMySQL(): PDO
     // Le PDO s'est connecté à la base de donnée sauf qu'on veut pas qu'il se supprime avec la fonction, on veut l'utiliser plusieurs fois
     return $databaseConnection;
 }
-
-
-
