@@ -11,7 +11,7 @@
     <?php endforeach ?>
         
     <li>
-        <img src="public/images/bieres/biere_funky.png" alt="bière funky" style=" width: 80%; background-color: #FF398A;
+        <img src="public/images/bieres/<?= GetdonneesBiere($references['nom']) ?>" alt="<?= $pokemon['nom'] ?>"style=" width: 80%; background-color: #FF398A;
     border-radius: 2em; height : 300px;">
         <p>FUNKY 4,20 €</p>
     </li>
