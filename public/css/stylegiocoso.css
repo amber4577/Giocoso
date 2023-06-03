@@ -229,8 +229,7 @@ form {
     align-items: end;
     justify-content:start;
     margin-right: 3%;
-    position : relative;
-    top : 300px;
+    margin-top : 30%;
 }
 
 .alcool{
