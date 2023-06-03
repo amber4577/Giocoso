@@ -1,5 +1,18 @@
 <main class="container2">
-    <form id="survey-form">
+    <form id="survey-form" action="" method="post">
+    <div class="form-group">
+            <label id="number-label" for="number"
+            ><span class="clue"></span></label
+            >
+            <input
+            type="text"
+            name="numclient"
+            id="number"
+            class="form-control"
+            placeholder="Numéro de Client"
+            />
+        </div>
+
        <div class="form-group">
             <label id="name-label" for="nom"></label>
             <input
@@ -107,7 +120,7 @@
         </div>
 
         <div class="form-group">
-            <button type="submit" id="submit" class="submit-button" style="background-color: #FFB904;">
+            <button type="submit" id="submit" class="submit-button" value="envoyer" style="background-color: #FFB904;">
             Je m'inscris
             </button>
         </div>
