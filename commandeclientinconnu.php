@@ -4,6 +4,7 @@
     <section class="numeroclient">
             <h3>CREER VOTRE NUMERO CLIENT</h3>
             <input id="barredenum" onkeyup="numero" type="text" name="number">
+            
             <div id="question">
                 <a href="Client_Connu.php"#commconnu>AVEZ-VOUS DEJA UN COMPTE ?</a>
             </div>
