@@ -1,5 +1,5 @@
 <?php
-require_once 'config copy.php';
+require_once 'config.php';
 
 function getDatabaseConnectionMySQL(): PDO
 {
