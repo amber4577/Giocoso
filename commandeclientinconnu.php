@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8"/>
-    <title>Commande</title>
-    <link rel="stylesheet" href="public/css/stylegiocoso.css">
-</head>
-<header>
-    <?php include 'app/view/common/header.php';?>     
-</header>  
 <body>
     <h2>MES INFORMATIONS</h2>
 
@@ -18,11 +9,7 @@
             </div>
 
             <div id="boutton">
-                <a href="compteclientform.php"><button class="validation" style="background-color: #70F8BA;">CREER MON NUMERO</button></a>
+                <button onclick="href='forminscription.php';" style="background-color: #70F8BA;">CREER MON NUMERO</button>
             </div>
     </section>
-
-    <footer>
-        <?php include 'app/view/common/footer.php';?>     
-    </footer>
 </body>

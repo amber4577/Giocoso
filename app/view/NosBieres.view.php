@@ -2,16 +2,16 @@
 
 <div class="container">
 
-    
+    <?php foreach ($bieres as $biere) : ?>
         <li>
-            <img src="public/images/bieres/biere_electro.png" alt="bières" style=" width: 80%; background-color: #D11FE3;
+            <img src="./public/images/bieres/biere_electro.png" alt="bières <?= $biere['nom'] ?>" style=" width: 80%; background-color: #D11FE3;
     border-radius: 2em; height : 300px;">
-            <p>ELECTRO 4,20€</p>
+            <p><?= $biere['nom'] ?> <p><?= $biere['prix'] ?></p>
         </li>
     <?php endforeach ?>
         
     <li>
-        <img src="public/images/bieres/biere_funky.png" alt="bière funky" style=" width: 80%; background-color: #FF398A;
+        <img src="public/images/bieres/<?= GetdonneesBiere($references['nom']) ?>" alt="<?= $pokemon['nom'] ?>"style=" width: 80%; background-color: #FF398A;
     border-radius: 2em; height : 300px;">
         <p>FUNKY 4,20 €</p>
     </li>
