@@ -68,7 +68,7 @@ h2 {
     height : 500px;
     width : 500px;
     margin-left: 350px;
-    margin-top : 400px;
+    margin-top : 200px;
 }
 
 .brasserie p {
@@ -229,7 +229,6 @@ form {
     align-items: end;
     justify-content:start;
     margin-right: 3%;
-    margin-top: 30%;
 }
 
 .alcool{
