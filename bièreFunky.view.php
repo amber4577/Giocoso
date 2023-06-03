@@ -45,9 +45,9 @@ body{
     <div class="BiereMockup">
         <img class="effet" src="public/images/page_biere_seule/Funky+Effect.png" alt="mockup">
     </div>
-    
-        <p class="prix">
-            4,20€
+        <p class="prix">  
+            <p><?= $decr[0]['description'] ?></span>€</p>         
+            
         </p>
         <p class="Description">
             Vibrez au rythme du son tout en buvant notre bière, savourer les douces mélodies que provoque

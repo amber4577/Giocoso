@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `bière`
 --
 
--- DROP TABLE IF EXISTS `bière`;
+DROP TABLE IF EXISTS `bière`;
 CREATE TABLE IF NOT EXISTS `bière` (
   `reference` int NOT NULL,
   `nom` varchar(50) NOT NULL,

@@ -2,7 +2,7 @@
 
 require_once 'app/model/param.php';
 
-// // Recupérer le numéro de la bière
+// Recupérer le numéro de la bière
 // function getBeer(int $reference, PDO $db): array {
 //     $sql = "SELECT reference FROM bière WHERE numBeer = :reference";
 //     $params = [
@@ -13,37 +13,24 @@ require_once 'app/model/param.php';
 
 
 // Recuperer les prix
-function getPrices(float $prix, PDO $db): array
+function GetPrices(float $prix, PDO $db): array
 {
-    $sql = "SELECT * FROM bière WHERE prix=";
+    $sql = "SELECT 'prix' FROM 'bieres' WHERE 'prix' =:prix;";
+
+    $prices = [
+        'prix' => $prix
+];
     
-    $params = ['price' => $prix,];
-    return launchSimpleRequest($sql, $params, $db);
+    return launchSimpleRequest($sql, $prices, $db);
 }
 
-
-function takePrices(float $prix, PDO $db): array
-{
-    $query = "SELECT prix FROM bieres"; // Modify the table name and condition as per your database structure
-    $stmt = $db->query($query);
-    $prices = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    return $prices;
-}
-
-// Recuperer description
+// Recuperer la description
 function getDescription(string $description, PDO $db): array
 {
-    $sql = "SELECT * FROM bière WHERE descr = :description";
+    $sql = "SELECT * FROM 'bière' WHERE 'description' = ':description;'";
            
-    $params = [
+    $descr = [
         'description' => $description,
     ];
-    return launchSimpleRequest($sql, $params, $db);
+    return launchSimpleRequest($sql, $descr, $db);
 }
-
-
-
-
-
-
