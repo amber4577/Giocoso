@@ -230,6 +230,8 @@ form {
     justify-content:start;
     margin-right: 3%;
     margin-top: 30%;
+    position : relative;
+    top : 80px;
 }
 
 .alcool{
