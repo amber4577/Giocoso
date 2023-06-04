@@ -9,24 +9,30 @@ require_once 'app/model/biereS.model.php';
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Bière Tango</title>
-    <link rel="stylesheet" href="public/css/bTango.css">
+    <title>Bière Jazz</title>
+    <link rel="stylesheet" href="public/css/bJazz.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+</a>
     <header>
+    
+
     <div class="BiereMockup">
-        <img class="effet" src="public/images/page_biere_seule/Tango+Effect.png" alt="mockupTango">
-    </div>   
+        <img class="effet" src="public/images/page_biere_seule/Jazz+Effect.png" alt="mockupJazz">
+    </div>
+   
+    
+
         <?php
 
 $infos = GetInfos($db);
 
 if (!empty($infos)) {
-    $prix = $infos[3]['prix'];
+    $prix = $infos['1']['prix'];
     echo "<p class=\"Prix\">" . $prix . "€ </p>";
 }  
 ?>
@@ -34,14 +40,14 @@ if (!empty($infos)) {
 $infos = GetInfos($db);
 
 if (!empty($infos)) {
-    $description = $infos['3']['description'];
+    $description = $infos['1']['description'];
     echo "<p class=\"Description\">" . $description . "</p>";
 } else {
     echo "No data found";
 }
 
-        ?>
-        <img src="public/images/page_biere_seule/Tango.png" class="Tango" alt="LogoTango ">
+?>
+        <img src="public/images/page_biere_seule/Jazz.png" class="Jazz" alt="LOGOJazz ">
 </body>
 </html>
 
@@ -76,7 +82,7 @@ if (isset($_POST['decrement'])) {
                 
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <button class="PLUS" type="submit" name="increment">+</button>
-                        <button class="SOUS" type="submit" name="decrement">-</button>
+                        <button class="SOUS" type="submit" name="decrement">-  </button>
                     </form>
             </div>
 
@@ -84,7 +90,6 @@ if (isset($_POST['decrement'])) {
         <p class="AjPanier">Ajouter aux panier</p>
     </div>
 
-    <a href="NOS BIERES.php">
     <button class="ContAchat">Continuer mes achats</button>
     </a>
 </body>
@@ -92,18 +97,18 @@ if (isset($_POST['decrement'])) {
 
 <style>
     header{
-  background-image: url("public/images/page_biere_seule/VagueTango.png");
+  background-image: url("public/images/page_biere_seule/vagueJazz.png");
   background-repeat: no-repeat;
-  background-position: 80%;
+  background-position: 75%;
 }
 body{
   background-color: #232323; 
-    background-image: url("public/images/page_biere_seule/partDTango.png");
+    background-image: url("public/images/page_biere_seule/partDJazz.png");
     background-repeat: no-repeat;
     background-position: right; 
 }
 .AjPanier{
-    background-color: #A91916;
+    background-color: #FDAF17;
     width: 76%;
     display: flex;
     align-items: center;

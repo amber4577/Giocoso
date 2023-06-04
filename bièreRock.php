@@ -100,7 +100,7 @@ if (isset($_POST['decrement'])) {
     header{
   background-image: url("public/images/page_biere_seule/vagueRock.png");
   background-repeat: no-repeat;
-  background-position: 70%;
+  background-position: 75%;
 }
 body{
   background-color: #232323; 
