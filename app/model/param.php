@@ -1,7 +1,7 @@
 <?php
 
 function getAllBeer(PDO $db): array {
-   $sql = "SELECT reference, nom, prix, gout, 'description' FROM biere";
+   $sql = "SELECT * FROM bière";
    $stmt = $db->query($sql);
    return $stmt->fetchAll();
 }
@@ -15,13 +15,5 @@ function launchSimpleRequest(string $sql, array $params, PDO $db): array
     $stmt->execute();
     $result = $stmt->fetchAll();
     unset($stmt);
-    return $result;
-}
-
-
-
-function getAllTalents(PDO $db): array {
-   $sql = "SELECT id_talent, nom FROM talent";
-   $stmt = $db->query($sql);
-   return $stmt->fetchAll();
+    return $result; 
 }
