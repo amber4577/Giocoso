@@ -10,7 +10,7 @@ require_once 'app/model/biereS.model.php';
 <head>
     <meta charset="utf-8">
     <title>Bière Funky</title>
-    <link rel="stylesheet" href="public/css/b.css">
+    <link rel="stylesheet" href="public/css/bFunky.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@ $infos = GetInfos($db);
 
 if (!empty($infos)) {
     $prix = $infos[0]['prix'];
-    echo "<p class=\"prix\">" . $prix . "€ </p>";
+    echo "<p class=\"Prix\">" . $prix . "€ </p>";
 }  
 ?>
         <?php
@@ -120,6 +120,12 @@ body{
     font-size: 25px;
     text-align: center;
     color: #232323;
+  }
+  .Prix{
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    font-size: 30px;    
   }
     </style>
 

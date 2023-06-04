@@ -9,25 +9,32 @@ require_once 'app/model/biereS.model.php';
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Bière Funky</title>
-    <link rel="stylesheet" href="public/css/b.css">
+    <title>Bière Rock</title>
+    <link rel="stylesheet" href="public/css/bRock.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+</a>
     <header>
+    
+
     <div class="BiereMockup">
-        <img class="effet" src="public/images/page_biere_seule/Rock+Effect.png" alt="mockupRock">
-    </div>   
+        <img class="effet" src="public/images/page_biere_seule/Rock+Effect.png" alt="mockup">
+    </div>
+   
+    
+
+    <p class="prix">
         <?php
 
 $infos = GetInfos($db);
 
 if (!empty($infos)) {
-    $prix = $infos[4]['prix'];
-    echo "<p class=\"prix\">" . $prix . "€ </p>";
+    $prix = $infos['4']['prix'];
+    echo "<p class=\"Prix\">" . $prix . "€ </p>";
 }  
 ?>
         <?php
@@ -40,8 +47,8 @@ if (!empty($infos)) {
     echo "No data found";
 }
 
-        ?>
-        <img src="public/images/page_biere_seule/Rock.png" class="Rock" alt="LOGO ">
+?>
+        <img src="public/images/page_biere_seule/Rock.png" class="Rock" alt="LOGORock ">
 </body>
 </html>
 
@@ -84,7 +91,6 @@ if (isset($_POST['decrement'])) {
         <p class="AjPanier">Ajouter aux panier</p>
     </div>
 
-    <a href="NOS BIERES.php">
     <button class="ContAchat">Continuer mes achats</button>
     </a>
 </body>
@@ -92,9 +98,9 @@ if (isset($_POST['decrement'])) {
 
 <style>
     header{
-  background-image: url("public/images/page_biere_seule/VagueRock.png");
+  background-image: url("public/images/page_biere_seule/vagueRock.png");
   background-repeat: no-repeat;
-  background-position: 75%;
+  background-position: 70%;
 }
 body{
   background-color: #232323; 
@@ -103,7 +109,7 @@ body{
     background-position: right; 
 }
 .AjPanier{
-    background-color: #ff398a;
+    background-color: #EACC39;
     width: 76%;
     display: flex;
     align-items: center;
