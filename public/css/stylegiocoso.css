@@ -257,3 +257,14 @@ iframe {
 
 }
 
+img {
+    border : 5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.vulgarisation {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}

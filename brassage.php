@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Brassage';
-$css = 'brassage.css';
+$css = 'stylegiocoso.css';
 
 ob_start();
 require_once 'app/view/brassage.view.php';
