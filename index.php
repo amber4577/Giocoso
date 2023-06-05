@@ -1,5 +1,4 @@
 <?php
-require_once 'app/model/dataConnection.php';
 
 
 $page_title = 'Accueil';

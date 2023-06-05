@@ -11,7 +11,7 @@ $identifiant = $_GET['number'];
 $doneclient = getDoneClient($identifiant, $db);
 
 $page_title = 'Information du client';
-$css = 'client.css';
+$css = 'stylegiocoso.css';
 
 ob_start();
 require_once 'app/view/client.view.php';

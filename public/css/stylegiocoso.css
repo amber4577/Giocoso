@@ -45,12 +45,13 @@ nav.menu img {
 }
 
 .logo img {
+    display : flex;
     height: 22px;
     width : 130px;
     border-radius: 2em;
     background-color: #202020;
     position : relative;
-    left : 640px;
+    left : 680px;
     top : 20px;
     padding : 10px;
 }
@@ -247,3 +248,12 @@ iframe {
 #question {
     margin-top: 10px;
 }
+
+.doneclient {
+    text-align : center;
+    color : #FFFF;
+    list-style-type: none;
+    font-family: 'Gilroy Light';
+
+}
+
