@@ -24,10 +24,11 @@ require_once 'app/model/biereS.model.php';
     <div class="BiereMockup">
         <img class="effet" src="public/images/page_biere_seule/Funky+Effect.png" alt="mockup">
     </div>
-   
+    <a href="app/view/NosBieres.view.php">
+    <p div class="Croix">X</p>
     
 
-    <p class="prix">
+    
         <?php
 
 $infos = GetInfos($db);

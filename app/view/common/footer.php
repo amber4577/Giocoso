@@ -66,8 +66,8 @@
                 <img src="public/images/logo_rs/twitter.png" alt="twitter">
             </a>
             
-            <a href="url">
-                <img src="public/images/logo_rs/instagram.png" alt="instagram">
+            <a href="https://www.instagram.com/giocoso_brasserie/">
+                <img src="public/images/logo_rs/instagram.png" alt="instagram" >
             </a>
         </div>
 
