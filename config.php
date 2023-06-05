@@ -8,6 +8,6 @@ DEFINE( 'URL', 'http://giocoso.mmibut1.org/');
 // DEFINE('DB_USER', 'cdce5547_sae');
 // DEFINE('DB_PASSWORD', 'MMI4ever@senart');
 DEFINE('DB_HOST', 'localhost');
-DEFINE('DB_NAME', 'site giocoso');
+DEFINE('DB_NAME', 'giocoso');
 DEFINE('DB_USER', 'root');
 DEFINE('DB_PASSWORD', '');
