@@ -1,3 +1,68 @@
+nav.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin : 0;
+    padding-right : 50px;
+    background-color: #FF398A;
+    border-radius: 2em;
+    width : 700px;
+    height : 70px;
+    color : #202020;
+    font-family:"Gilroy ExtraBold";
+    margin-inline: auto;
+  }
+
+nav.menu li {
+    float : left;
+    height: 60px;
+    margin : 10px;
+    width : 13%;
+    text-align: center;
+  }
+
+nav.menu li a{
+    display: block;
+    color:rgb(11, 2, 2);
+    text-align: center;
+    padding : 14px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    position : relative;
+    left : 15px;
+  }
+
+nav.menu img {
+    height : 44px;
+    width : 64px;
+    position : relative;
+    bottom : 10px;
+    left : 10px;
+}
+
+.logo img {
+    height: 22px;
+    width : 130px;
+    border-radius: 2em;
+    background-color: #202020;
+    position : relative;
+    left : 640px;
+    top : 20px;
+    padding : 10px;
+}
+
+#barrederecherche {
+    width : 600px;
+    height: 45px;
+    margin-top: 20px;
+    background-color : rgb(255,255,255);
+    border : 1px solid rgb(255,255,255);
+    margin-left: -10px;
+    margin-top : 30px;
+    color : rgb(0, 0, 0);
+    border-radius: 2em;
+    position : relative;
+}
+
 body {
     background-color: #232323;
 }
