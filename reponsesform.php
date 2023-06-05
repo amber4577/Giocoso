@@ -21,7 +21,7 @@
         echo "<li>Numéro de téléphone: " . $numtel . "</li>";
         echo "<li>Adresse postale: " . $adp . "</li>";
         echo "<li>Date de naissance: " . $birth . "</li>";
-        echo "<li>Code postal: " . $codePostal . "</li>";
+        echo "<li>Code postal: " . $cp . "</li>";
         echo "<li>Ville: " . $ville . "</li>";
         ?>
     </ul>
