@@ -45,6 +45,7 @@ nav.menu img {
 }
 
 .logo img {
+    display : flex;
     height: 22px;
     width : 130px;
     border-radius: 2em;
