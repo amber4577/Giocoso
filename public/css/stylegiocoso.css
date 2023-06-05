@@ -251,7 +251,8 @@ iframe {
 .doneclient {
     text-align : center;
     color : #FFFF;
-    list-style: none;
+    list-style-type: none;
     font-family: 'Gilroy Light';
 
 }
+
