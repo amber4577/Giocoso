@@ -1,0 +1,31 @@
+body {
+    background-color: #232323;
+}
+
+h1 {
+    color: white;
+    font-family: fredoka one;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color:white;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+img {
+    border : 5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.vulgarisation {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
