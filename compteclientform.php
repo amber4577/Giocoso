@@ -1,11 +1,10 @@
 <?php
 
-require_once 'app/model/client.model.php';
+require_once 'app/model/clientinconnu.model.php';
 require_once 'app/model/dataConnection.php';
 
 $db = getDatabaseConnectionMySQL();
-$addclient = postDoneClient($identifiant, $db);
-$identifiant = $_POST['numclient'];
+$identifiant = $_POST['num_client'];
 
 
 $page_title = 'Inscription';

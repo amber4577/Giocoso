@@ -126,3 +126,6 @@
     height: 700px; /* Hauteur fixe de l'image */
     }
   
+    .Croix{
+      float: right;
+    }

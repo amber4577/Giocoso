@@ -70,7 +70,6 @@
   }
 
   .Description{
-    
     display: block;
     font-family: 'gilroy';
     position: absolute;
@@ -120,4 +119,8 @@
     margin-right: 5%;
     margin-top: -4%;
   }
-  
+  .Croix{
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+  }

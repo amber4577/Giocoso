@@ -62,12 +62,12 @@
                 <img src="public/images/logo_rs/facebook.png" alt="facebook">
             </a>
 
-            <a href="url">
+            <a href="https://twitter.com/GBrasserie68779">
                 <img src="public/images/logo_rs/twitter.png" alt="twitter">
             </a>
             
-            <a href="url">
-                <img src="public/images/logo_rs/instagram.png" alt="instagram">
+            <a href="https://www.instagram.com/giocoso_brasserie/">
+                <img src="public/images/logo_rs/instagram.png" alt="instagram" >
             </a>
         </div>
 

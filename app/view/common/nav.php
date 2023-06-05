@@ -1,6 +1,6 @@
 <nav class="menu">
         <ul>
-            <li><a href="brasserie.php">LA BRASSERIE</a></li>
+            <li><a href="brassage.php">BRASSAGE</a></li>
             <li><a href="NOS_BIERES.php">BIERES</a></li>
             <li><a href="Nous.php">NOUS</a></li>
             <li><a href="contact.php">CONTACT</a></li>
