@@ -24,7 +24,9 @@ require_once 'app/model/biereS.model.php';
     <div class="BiereMockup">
         <img class="effet" src="public/images/page_biere_seule/Jazz+Effect.png" alt="mockupJazz">
     </div>
-   
+    <a href="app/view/NosBieres.view.php">
+    <p div class="Croix">X</p>
+    </a>
     
 
         <?php
