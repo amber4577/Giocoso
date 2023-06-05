@@ -6,7 +6,7 @@
         <li>
             <img src="./public/images/bieres/biere_electro.png" alt="bières <?= $biere['nom'] ?>" style=" width: 80%; background-color: #D11FE3;
     border-radius: 2em; height : 300px;">
-            <p><?= $biere['nom'] ?> <p><?= $biere['prix'] ?></p>
+            <p><?= $biere['nom'] ?> <p><?= $biere['prix'] ?></p> <p><?= $biere['image'] ?></p>
         </li>
     <?php endforeach ?>
         

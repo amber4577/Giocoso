@@ -19,11 +19,11 @@
             <input id="barredenum" onkeyup="numero" type="text" name="number">
             
             <div id="boutton">
-                <a href="app/view/compteclientform.php"><button type="submit" class="validation" style="background-color:#70F8BA;">CREER VOTRE COMPTE</button></a>
+                <a href="compteclientform.php"><button type="submit" class="validation" style="background-color:#70F8BA;">CREER VOTRE COMPTE</button></a>
             </div>
 
         <div id="question">
-             <a href="commandeclientinconnu.php"#commconnu>VOUS AVEZ DEJA UN NUMERO CLIENT ?</a>
+             <a href="Client_Connu.php"#commconnu>VOUS AVEZ DEJA UN NUMERO CLIENT ?</a>
         </div>
     </section>
             </div>

@@ -45,6 +45,7 @@ nav.menu img {
 }
 
 .logo img {
+    display : flex;
     height: 22px;
     width : 130px;
     border-radius: 2em;
@@ -251,7 +252,8 @@ iframe {
 .doneclient {
     text-align : center;
     color : #FFFF;
-    list-style: none;
+    list-style-type: none;
     font-family: 'Gilroy Light';
 
 }
+
