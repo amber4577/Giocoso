@@ -257,3 +257,29 @@ iframe {
 
 }
 
+img {
+    display: flex;
+    justify-content: center;
+}
+
+.vulgarisation {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#brassage h1 {
+    color: white;
+    font-family: fredoka one;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+#brassage p {
+    color:white;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}

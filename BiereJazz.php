@@ -9,8 +9,8 @@ require_once 'app/model/biereS.model.php';
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Bière Rock</title>
-    <link rel="stylesheet" href="public/css/bRock.css">
+    <title>Bière Jazz</title>
+    <link rel="stylesheet" href="public/css/bJazz.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
@@ -22,19 +22,23 @@ require_once 'app/model/biereS.model.php';
     
 
     <div class="BiereMockup">
-        <img class="effet" src="public/images/page_biere_seule/Rock+Effect.png" alt="mockup">
+        <img class="effet" src="public/images/page_biere_seule/Jazz+Effect.png" alt="mockupJazz">
     </div>
     <a href="app/view/NosBieres.view.php">
-    <p div class="Croix">X</p>
-    </a>    
+    <p div class="Croix" style="
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+">X</p>
+    </a>
+    
 
-    <p class="prix">
         <?php
 
 $infos = GetInfos($db);
 
 if (!empty($infos)) {
-    $prix = $infos['4']['prix'];
+    $prix = $infos['1']['prix'];
     echo "<p class=\"Prix\">" . $prix . "€ </p>";
 }  
 ?>
@@ -42,14 +46,14 @@ if (!empty($infos)) {
 $infos = GetInfos($db);
 
 if (!empty($infos)) {
-    $description = $infos['4']['description'];
+    $description = $infos['1']['description'];
     echo "<p class=\"Description\">" . $description . "</p>";
 } else {
     echo "No data found";
 }
 
 ?>
-        <img src="public/images/page_biere_seule/Rock.png" class="Rock" alt="LOGORock ">
+        <img src="public/images/page_biere_seule/Jazz.png" class="Jazz" alt="LOGOJazz ">
 </body>
 </html>
 
@@ -99,18 +103,18 @@ if (isset($_POST['decrement'])) {
 
 <style>
     header{
-  background-image: url("public/images/page_biere_seule/vagueRock.png");
+  background-image: url("public/images/page_biere_seule/vagueJazz.png");
   background-repeat: no-repeat;
   background-position: 75%;
 }
 body{
   background-color: #232323; 
-    background-image: url("public/images/page_biere_seule/partDRock.png");
+    background-image: url("public/images/page_biere_seule/partDJazz.png");
     background-repeat: no-repeat;
     background-position: right; 
 }
 .AjPanier{
-    background-color: #EACC39;
+    background-color: #FDAF17;
     width: 76%;
     display: flex;
     align-items: center;
