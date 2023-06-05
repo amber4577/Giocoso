@@ -20,7 +20,9 @@ require_once 'app/model/biereS.model.php';
     <header>
     <div class="BiereMockup">
         <img class="effet" src="public/images/page_biere_seule/Tango+Effect.png" alt="mockupTango">
-    </div>   
+    </div>  
+    <a href="app/view/NosBieres.view.php">
+    <p div class="Croix">X</p> 
         <?php
 
 $infos = GetInfos($db);

@@ -19,13 +19,11 @@ require_once 'app/model/biereS.model.php';
 <body>
 </a>
     <header>
-    
-
     <div class="BiereMockup">
         <img class="effet" src="public/images/page_biere_seule/Electro+Effect.png" alt="mockupElectro">
     </div>
-   
-    
+    <a href="app/view/NosBieres.view.php">
+    <p div class="Croix">X</p>
 
         <?php
 
