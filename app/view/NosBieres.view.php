@@ -1,33 +1,25 @@
-<?php 
-include 'presentationgamme.php'; 
-?>
+<style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+        }
+    </style>
+<div class="grid-container">
+    <?php
 
-<div class="container">
+        $sql = "SELECT nom_img FROM bière";
+        $resultat = mysqli_query($databaseConnection, $sql);
 
-    <?php foreach ($bieres as $biere) : ?>
-        <li>
-            <img src="./public/images/bieres/<?= $biere['image'] ?>" alt="bière <?= $biere['nom'] ?>" style="width: 80%; background-color: #D11FE3; border-radius: 2em; height: 300px;">
-            <p><?= $biere['nom'] ?></p>
-            <p><?= $biere['prix'] ?> €</p>
-        </li>
-    <?php endforeach; ?>
-        
-    <li>
-        <img src="public/images/bieres/<?= GetdonneesBiere($references['nom']) ?>" alt="<?= $nom['nom'] ?>" style="width: 80%; background-color: #FF398A; border-radius: 2em; height: 300px;">
-        <p>FUNKY 4,20 €</p>
-    </li>
-
-    <li>
-        <img src="public/images/bieres/biere_jazz.png" alt="bière jazz" style="width: 80%; background-color: #ffcb3d; border-radius: 2em; height: 300px;">
-        <p>JAZZ 4,20 €</p>
-    </li>
-    <li>
-        <img src="public/images/bieres/biere_rock.png" alt="bière rock" style="width: 80%; background-color:#A81A16; border-radius: 2em; height: 300px;">
-        <p>ROCK 4,20 €</p>
-    </li>
-    <li>
-        <img src="public/images/bieres/biere_tango.png" alt="bière tango" style="width: 80%; background-color:#EA3434; border-radius: 2em; height: 300px;">
-        <p>TANGO 4,20 €</p>
-    </li>
-
+        while ($ligne = mysqli_fetch_assoc($resultat)) {
+            $nomIMg = $ligne['nom_img'];
+            echo "<div class='grid-item'> <ul> 
+            <li><img src='public/images/repertoire/ $nomIMg' alt='$nomIMg'></li>;
+            <li><img src='public/images/repertoire/ $nomIMg' alt='$nomIMg'></li>;
+            <li><img src='public/images/repertoire/ $nomIMg' alt='$nomIMg'></li>;
+            <li><img src='public/images/repertoire/ $nomIMg' alt='$nomIMg'></li>;
+            <li><img src='public/images/repertoire/ $nomIMg' alt='$nomIMg'></li> 
+            </ul>";
+        }
+    ?>
 </div>

@@ -1,8 +1,19 @@
+<head>
+    <meta charset="utf-8">
+    <title>Page Client</title>
+    <link rel="stylesheet" href="public/css/stylegiocoso.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+</head>
+<header>
+    <?php include 'app/view/common/header.php';?>     
+</header>
+
 <body>
     <h2>Récapitulatif</h2>
     <ul>
         <?php
-        // Récupérer les données du formulaire
         $num_client = $_POST['numclient'];
         $nom = $_POST['nom'];
         $prenom = $_POST['prenom'];
@@ -13,7 +24,6 @@
         $cp = $_POST['cp'];
         $ville = $_POST['ville'];
 
-        // Afficher les données dans une liste
         echo "<li>Identifiant: " . $num_client . "</li>";
         echo "<li>Nom: " . $nom  . "</li>";
         echo "<li>Prénom: " . $prenom . "</li>";
@@ -25,3 +35,8 @@
         echo "<li>Ville: " . $ville . "</li>";
         ?>
     </ul>
+
+    <footer>
+        <?php include 'app/view/common/footer.php';?>     
+    </footer>
+</body>
