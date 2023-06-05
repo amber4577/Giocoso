@@ -18,7 +18,7 @@ p {
     margin-top: 69px;
 }
 
-img {
+#image {
     border : 5px solid white;
     display: flex;
     justify-content: center;
