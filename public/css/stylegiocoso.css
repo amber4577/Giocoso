@@ -247,3 +247,11 @@ iframe {
 #question {
     margin-top: 10px;
 }
+
+.doneclient {
+    text-align : center;
+    color : #FFFF;
+    list-style: none;
+    font-family: 'Gilroy Light';
+
+}

@@ -10,7 +10,7 @@ require_once 'app/model/biereS.model.php';
 <head>
     <meta charset="utf-8">
     <title>Bière Electro</title>
-    <link rel="stylesheet" href="public/css/bElectro.css">
+    <link rel="stylesheet" href="public/css/bElectro1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@ require_once 'app/model/biereS.model.php';
     
 
     <div class="BiereMockup">
-        <img class="effet" src="public/images/page_biere_seule/EElectro+Effect.png" alt="mockupElectro">
+        <img class="effet" src="public/images/page_biere_seule/Electro+Effect.png" alt="mockupElectro">
     </div>
    
     
@@ -102,10 +102,10 @@ if (isset($_POST['decrement'])) {
   background-position: 75%;
 }
 body{
-  background-color: #232323; 
-    background-image: url("public/images/page_biere_seule/partDElectro.png");
+    background-color: #F038FF;
+    background-image: url("public/images/page_biere_seule/vector35.png");
     background-repeat: no-repeat;
-    background-position: right; 
+    background-position: right;
 }
 .AjPanier{
     background-color: #0AD6DF;
