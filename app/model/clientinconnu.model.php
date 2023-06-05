@@ -1,5 +1,5 @@
 <?php
-$numclient = $_POST['numclient'];
+$num_client = $_POST['num_client'];
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
 $email = $_POST['email'];
@@ -9,13 +9,13 @@ $birth = $_POST['birth'];
 $cp = $_POST['cp'];
 $ville = $_POST['ville'];
 
-$connexion = mysqli_connect($serveur, $utilisateur, $motDePasse, $baseDeDonnees);
+$connexion = mysqli_connect($serveur, $utilisateur, $motDePasse, $db);
 
 if (!$connexion) {
     die("Erreur de connexion à la base de données : " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO client (num_client, nom, prenom, adresse_mail, num_tel, adresse_postale, date_naissance, cp, ville) VALUES ('$numclient', '$nom', '$prenom', '$email', '$numtel', '$adp', '$birth', '$cp', '$ville')";
+$sql = "INSERT INTO client (num_client, nom, prenom, adresse_mail, num_tel, adresse_postale, date_naissance, cp, ville) VALUES ('$num_client', '$nom', '$prenom', '$email', '$numtel', '$adp', '$birth', '$cp', '$ville')";
 
 if (mysqli_query($connexion, $sql)) {
     echo "Vous êtes inscris !";

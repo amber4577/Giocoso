@@ -3,7 +3,7 @@
     <ul>
         <?php
         // Récupérer les données du formulaire
-        $numclient = $_POST['numclient'];
+        $num_client = $_POST['numclient'];
         $nom = $_POST['nom'];
         $prenom = $_POST['prenom'];
         $email = $_POST['email'];
@@ -14,7 +14,7 @@
         $ville = $_POST['ville'];
 
         // Afficher les données dans une liste
-        echo "<li>Identifiant: " . $numclient . "</li>";
+        echo "<li>Identifiant: " . $num_client . "</li>";
         echo "<li>Nom: " . $nom  . "</li>";
         echo "<li>Prénom: " . $prenom . "</li>";
         echo "<li>Adresse e-mail: " . $email . "</li>";
