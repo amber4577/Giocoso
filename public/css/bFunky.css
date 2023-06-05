@@ -131,9 +131,8 @@ p{
   width: auto;
   height: 600px; /* Hauteur fixe de l'image */
   }
-
-   /* Pour tango */
-
-  /* Pour Electro */
-
-  /* Pour Jazz */
+  .Croix{
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+  }
