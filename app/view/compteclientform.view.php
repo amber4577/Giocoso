@@ -1,5 +1,5 @@
 <main class="container2">
-    <form id="survey-form" action="" method="post">
+    <form method="POST" action="reponsesform.php">
     <div class="form-group">
             <label id="number-label" for="number"
             ><span class="clue"></span></label
