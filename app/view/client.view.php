@@ -1,6 +1,6 @@
 <main>
 <ul>
-    <div>
+    <div class="doneclient">
         <li>
             <h2>Numéro client</h2>
             <span><?= $doneclient ["num_client"] ?></span>
