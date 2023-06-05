@@ -12,7 +12,7 @@
 
     <header>
         <section class="logo">
-            <a href="index.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
+        <a href="index.php"><img src="public/images/imgheader/logo_giocoso.png"/></a>
         </section>
     
         <?php include 'app/view/common/nav.php';?>   
