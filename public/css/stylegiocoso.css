@@ -258,7 +258,6 @@ iframe {
 }
 
 img {
-    border : 5px solid white;
     display: flex;
     justify-content: center;
 }
@@ -267,4 +266,20 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 55px;
+}
+
+#brassage h1 {
+    color: white;
+    font-family: fredoka one;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+#brassage p {
+    color:white;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
 }
