@@ -51,7 +51,7 @@ nav.menu img {
     border-radius: 2em;
     background-color: #202020;
     position : relative;
-    left : 680px;
+    left : 645px;
     top : 20px;
     padding : 10px;
 }
@@ -343,4 +343,20 @@ textarea {
 [type="submit"]:hover {
     background: #000000;
     color: #FF1091;
+}
+
+h1 {
+    color: white;
+    font-family: fredoka one;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+    font-family: gilroy;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
 }

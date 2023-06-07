@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Contact';
-$css = 'contact.css';
+$css = 'stylegiocoso.css';
 
 ob_start();
 require_once 'app/view/contact.view.php';
