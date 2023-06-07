@@ -1,6 +1,6 @@
 <h1>Contact</h1>
 
-    <section class="formulaire">
+    <section class="formulairecontact">
         <h3> Formulaire de contact </h3>
 
 
@@ -11,3 +11,4 @@
             <textarea name="text" class="feedback-input" placeholder="Ecrivez votre message"></textarea>
             <input type="submit" value="ENVOYER" />
         </form>
+    </section>
