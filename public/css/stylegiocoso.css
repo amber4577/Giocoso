@@ -324,26 +324,6 @@ textarea {
     resize: vertical;
 }
 
-[type="submit"] {
-    font-family: gilroy;
-    width: 100%;
-    background: #FF1091;
-    border-radius: 5px;
-    border: 0;
-    cursor: pointer;
-    color: white;
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
-}
-
-[type="submit"]:hover {
-    background: #000000;
-    color: #FF1091;
-}
 
 h1 {
     color: white;

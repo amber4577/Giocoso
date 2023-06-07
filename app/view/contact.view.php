@@ -9,6 +9,6 @@
             <input name="Prénom" type="text" class="feedback-input" placeholder="Prénom" />
             <input name="email" type="text" class="feedback-input" placeholder="Email" />
             <textarea name="text" class="feedback-input" placeholder="Ecrivez votre message"></textarea>
-            <input type="submit" value="ENVOYER" />
+            <button type="submit" id="submit" class="submit-button" value="Envoyer" style="background-color: #FFB904;">Envoyer</button>
         </form>
     </section>
